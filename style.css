@@ -79,6 +79,10 @@ body {
     font-family: 'Lato Light';
     src: url(fonts/Lato/Lato-Light.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Lato Medium';
+    src: url(fonts/Lato/Lato-Medium.ttf) format('truetype');
+}
 
 @font-face {
     font-family: 'Lato Bold';
@@ -240,7 +244,7 @@ header.single-color{
 
 /*Checkout page*/
 .address_section {
-    padding-top: 60px;
+    padding: 60px 0 80px;
 }
 .form_col {
     padding-top: 60px;
@@ -331,7 +335,6 @@ header .checkout_container {
 }
 
 .select_title {
-    padding-left: 25px;
     width: 293px;
     height: 43px;
     color: #262626;
@@ -427,13 +430,14 @@ input[type=number]::-webkit-outer-spin-button {
     font-weight: 700;
     width: 270px;
 }
-.units_col {
-    margin-left: 60px;
-    padding-left: 60px;
-}
+
 .cost_block {
-    width: 216px;
-    margin-top: 60px;
+    margin-top: 54px;
+    padding-top: 54px;
+}
+.total_block {
+    margin-top: 54px;
+    padding-top: 50px;
 }
 .cost_title {
     height: 23px;
@@ -453,9 +457,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: #595959;
     float: right;
 }
-.total_block {
-   margin-top: 60px;
-}
+
 .total_block div {
     width: 131px;
     height: 61px;
@@ -494,7 +496,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .add_div_col {
-    margin-top: 70px;
+    margin-top: 60px;
+    padding-top: 58px;
+}
+.bil_div_col {
+    padding-left: 0;
 }
 
 .add_div:first-child {
@@ -556,12 +562,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /*address form*/
+/*.add_form {
+    max-width: 837px;
+    margin: 0 auto;
+}*/
 .address_col {
     margin-top: 93px;
 }
 .add_form label {
     display: block;
-    height: 23px;
     color: #000000;
     font-size: 20px;
     font-weight: 500;
@@ -570,49 +579,167 @@ input[type=number]::-webkit-outer-spin-button {
 .loc_icon {
     background-image: url("images/checkout/location.png");
     background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 .city_icon {
     background-image: url("images/checkout/cityname.png");
     background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 .state_icon {
      background-image: url("images/checkout/state.png");
      background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 .zip_icon {
     background-image: url("images/checkout/letter.png");
     background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 .company_icon {
     background-image: url("images/checkout/company.png");
     background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 .name_icon {
     background-image: url("images/checkout/person.png");
     background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 .phone_icon {
      background-image: url("images/checkout/phone.png");
      background-repeat: no-repeat;
+    background-position: 24px 20px;
  }
 .email_icon {
     background-image: url("images/checkout/at.png");
     background-repeat: no-repeat;
+    background-position: 24px 20px;
 }
 
+.add_form input {
+    height: 61px;
+    border: 1px solid #9b9b9b;
+    background-color: #ffffff;
+    outline: none;
+    padding-left: 24px;
+}
+.add_form input::placeholder {
+    color: #9b9b9b;
+    font-family: 'Lato Medium';
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 38px;
+}
 .big_input input {
     width: 837px;
-    height: 61px;
-    border: 1px solid #9b9b9b;
-    background-color: #ffffff;
+    margin-bottom: 20px;
 }
-
+.small_inputs_row {
+    margin-bottom: 20px;
+}
 .small_inputs input {
     width: 400px;
+}
+
+/*payment section*/
+.payment-container {
+    max-width: 837px;
+    margin: 0 auto;
+}
+.payment_section {
+    padding-bottom: 90px;
+}
+.secure_title_div {
+    margin: 0 0 51px;
+}
+.secure_server {
+    height: 19px;
+    color: #595959;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    vertical-align: -webkit-baseline-middle;
+}
+.payment_div {
+    width: 553px;
     height: 61px;
     border: 1px solid #9b9b9b;
     background-color: #ffffff;
+    position: relative;
+    padding-left: 75px;
+    display: flex;
+    align-items: center;
 }
+.payment_div input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    top: 16px;
+    left: 20px;
+    z-index: 1;
+}
+.paypalimg {
+    background-image: url("images/checkout/paypal.png");
+    background-repeat: no-repeat;
+    background-position: 30% 17px;
+}
+.visaimg {
+    background-image: url("images/checkout/visa.png");
+    background-repeat: no-repeat;
+    background-position: 60% 17px;
+}
+.cryptoimg {
+    background-image: url("images/checkout/crypto.png");
+    background-repeat: no-repeat;
+    background-position: 30% 17px;
+}
+.appleimg {
+    background-image: url("images/checkout/pay.png");
+    background-repeat: no-repeat;
+    background-position: 30% 17px;
+}
+.pay_checkmark {
+    position: absolute;
+    top: 15px;
+    left: 28px;
+    width: 27px;
+    height: 28px;
+    border: 2px solid #4a4a4a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.included {
+    width: 248px;
+    height: 200px;
+    border: 1px solid #9b9b9b;
+    background-color: #ffffff;
+    padding: 20px 0 0 28px;
+    margin-left: 25px;
+
+}
+.included h6 {
+    color: #595959;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 18px;
+}
+.included_list {
+    padding-inline-start: 22px;
+}
+.included_list li {
+    height: 17px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-image: url("images/checkout/paycheck.png");
+    margin-bottom: 10px;
+}
+
+
+
 
 /*video section*/
 .video {

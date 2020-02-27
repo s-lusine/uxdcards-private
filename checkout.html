@@ -68,14 +68,11 @@
     </div>
 </header>
 <div class="select_section">
-    <div class="container">
+    <div class="payment-container">
+        <img src="images/checkout/numb1.png">
         <div class="row">
-            <div class="col-md-12">
-                <img src="images/checkout/numb1.png">
-                <span class="select_title bold_txt">Select your volume</span>
-            </div>
-            <div class="row units_row">
-                <div class="col-md-5 units_col">
+                <div class="col-md-6 units_col">
+                    <span class="select_title bold_txt">Select your volume</span>
                     <h6 class="units_title med_txt">Units</h6>
                     <div class="number-input">
                         <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
@@ -92,18 +89,17 @@
                     <h6 class="total_title med_txt">TOTAL TO PAY</h6>
                     <div>$475</div>
                 </div>
-            </div>
         </div>
     </div>
 </div>
 <div class="address_section">
-    <div class="container">
+    <div class="payment-container">
+        <img src="images/checkout/numb2.png">
         <div class="row">
             <div class="col-md-12 form_col">
-                <img src="images/checkout/numb1.png">
-                <span class="select_title bold_txt">Enter your delivery address</span>
                 <form class="billing_form">
-                    <div class="col-md-5">
+                    <div class="col-md-6 bil_div_col">
+                        <span class="select_title bold_txt">Enter your delivery address</span>
                         <h6 class="bil_title med_txt">BILLING ADDRESS *</h6>
                         <div class="bil_div brandontext-regular bil_inputs">
                             <input class="bil_address" type="checkbox">
@@ -117,7 +113,7 @@
                             Home/Residential
                         </div>
                     </div>
-                    <div class="col-md-5 add_div_col">
+                    <div class="col-md-6 add_div_col">
                         <div class="add_div brandontext-regular bil_inputs">
                             <input class="another_address" type="checkbox">
                             <span class="checkmark"></span>
@@ -137,45 +133,163 @@
                         <label class="med_txt" for="address">ADDRESS *</label>
                         <input id="address" class="loc_icon" type="text" placeholder="Unit/Street number and address">
                     </div>
-                    <div class="row">
-                        <div class="col-md-5 small_inputs">
+                    <div class="row small_inputs_row">
+                        <div class="col-md-6 small_inputs">
                             <label class="med_txt" for="cityName">CITY/DISTRICT *</label>
                             <input class="city_icon" id="cityName" type="text" placeholder="Name of city ">
                         </div>
-                        <div class="col-md-5 small_inputs">
+                        <div class="col-md-6 small_inputs">
                             <label class="med_txt" for="state">STATE *</label>
                             <input class="state_icon" id="state" type="text" placeholder="Name of state">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-5 small_inputs">
+                    <div class="row small_inputs_row">
+                        <div class="col-md-6 small_inputs">
                             <label class="med_txt" for="zip">ZIP/POSTCODE</label>
-                            <input id="zip" class="zip_icon" type="text" placeholder="Zip/Post code">
+                            <input id="zip" class="zip_icon" type="number" placeholder="Zip/Post code">
                         </div>
-                        <div class="col-md-5 small_inputs">
+                        <div class="col-md-6 small_inputs">
                             <label class="med_txt" for="company">COMPANY * </label>
                             <input id="company" class="company_icon" type="text" placeholder="Company name">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-5 small_inputs">
+                    <div class="row small_inputs_row">
+                        <div class="col-md-6 small_inputs">
                             <label class="med_txt" for="name">NAME *</label>
                             <input id="name" class="name_icon" type="text" placeholder="First and last name">
                         </div>
-                        <div class="col-md-5 small_inputs">
+                        <div class="col-md-6 small_inputs">
                             <label class="med_txt" for="phone">PHONE NUMBER * </label>
-                            <input id="phone" class="phone_icon" type="text" placeholder="Best phone number">
+                            <input id="phone" class="phone_icon" type="number" placeholder="Best phone number">
                         </div>
                     </div>
                     <div class="big_input">
                         <label class="med_txt" for="email">EMAIL ADDRESS*</label>
-                        <input id="email" class="email_icon" type="text" placeholder="Your email address">
+                        <input id="email" class="email_icon" type="email" placeholder="Your email address">
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
+<div class="payment_section">
+    <div class="payment-container">
+        <img src="images/checkout/numb3.png">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="select_title bold_txt">Select your preferred payment method</span>
+                <div class="secure_title_div">
+                    <img src="images/checkout/lock.png" alt="lock">
+                    <span class="secure_server brandontext-regular">Secure Server</span>
+                </div>
+            </div>
+            <div class="col-md-8 payment_system">
+                <div class="payment_div med_txt paypalimg">
+                    <input type="checkbox">
+                    <span class="pay_checkmark"></span>
+                    Paypal
+                </div>
+                <div class="payment_div med_txt visaimg">
+                    <input type="checkbox">
+                    <span class="pay_checkmark"></span>
+                    Credit Card
+                </div>
+                <div class="payment_div med_txt cryptoimg">
+                    <input type="checkbox">
+                    <span class="pay_checkmark"></span>
+                    Crypto
+                </div>
+                <div class="payment_div med_txt appleimg">
+                    <input type="checkbox">
+                    <span class="pay_checkmark"></span>
+                    Apple Pay
+                </div>
+            </div>
+            <div class="col-md-3 included">
+                <h6 class="med_txt">What’s included? </h6>
+                <ul class="included_list">
+                    <li class="lato-regular">75 Method Card deck</li>
+                    <li class="lato-regular">Access to online library</li>
+                    <li class="lato-regular">Worksheets & templates</li>
+                    <li class="lato-regular">Expedited shipping</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="logo-footer">
+                    <a href="index.html" title="logo"></a>
+                </div>
+                <div class="quick-links">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td><a href="index.html">Home</a></td>
+                            <td><a href="about.html">About</a></td>
+                            <td><a href="cards.html">Cards</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" data-toggle="modal" data-target="#contact">Contact</a></td>
+                            <td><a href="uses-bk.html" data-toggle="modal" data-target="#suggest">Uses</a></td>
+                            <td><a href="faq.html">FAQ</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a></td>
+                            <td><a href="#" data-toggle="modal" data-target="#terms-popup">Terms</a></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <ul class="quick-links-ul links_responsive">
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#privacy">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#terms-popup">Terms</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/uxdcards" title="Twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/uxd-cards"  title="Linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/uxdcards"  title="Facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/uxdcards"  title="Instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="social_mobile">
+                    <a href="https://twitter.com/uxdcards" title="Facebook">
+                        <img src="images/fb.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.linkedin.com/company/uxd-cards"  title="Linkedin">
+                        <img src="images/in.png"  alt="Linkedin">
+                    </a>
+                    <a href="https://www.facebook.com/uxdcards"  title="Twitter">
+                        <img src="images/twitter.png"  alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/uxdcards"  title="Instagram">
+                        <img src="images/insta.png"  alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
