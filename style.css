@@ -1,16 +1,20 @@
 a,
 a:focus,
 a:hover,
+
 button:focus {
     text-decoration: none;
 }
 
+input {
+    outline: none;
+    -webkit-appearance: none;
+}
 
 #bs-example-navbar-collapse-1 .header_card:hover {
     box-shadow: 0 0 11px rgba(33,33,33,.2);
     transition: 0.5s;
 }
-
 
 a {
     color: #fff;
@@ -26,8 +30,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     border: solid 10px #ffffff;
-}
-body {
     font-family: 'BrandonText Regular' !important;
 }
 
@@ -113,6 +115,15 @@ button:focus {
 
 .lato-regular {
     font-family: "Lato Regular";
+}
+.brandon-bold {
+    font-family: 'BrandonText Bold';
+}
+.lato-medium {
+    font-family: 'Lato Medium';
+}
+.bariol-regular {
+    font-family: 'Bariol Regular';
 }
 
 #bs-example-navbar-collapse-1 a,
@@ -747,26 +758,242 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /*order confirmation page*/
+.order_details {
+    padding-top: 61px;
+}
 .confirm_main_txt {
     margin-bottom: 55px;
 }
+.line img {
+    width: 100%;
+    border-bottom: 10px solid #fff;
+}
 
 .header_conf_title {
-    height: 61px;
     color: #ffffff;
     font-size: 50px;
     font-weight: 700;
 }
 .conf_sub_title {
-    height: 49px;
     color: #ffffff;
     font-size: 19px;
     font-weight: 400;
     line-height: 25px;
 }
+.details_txt {
+    width: 378px;
+}
+.details_title, .share_title {
+    color: #262626;
+    font-size: 34px;
+    font-weight: 700;
+}
+.purchase_txt {
+    width: 530px;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 38px;
+}
+.delivery_output, .pay_method {
+    border: 1px solid #9b9b9b;
+    background-color: #ffffff;
+}
+.delivery_output {
+    display: flex;
+    width: 530px;
+    height: 233px;
+    padding: 34px 64px 66px 40px;
+    margin-bottom: 30px;
+}
+.delivery_output div:first-child {
+    margin-right: 61px;
+}
 
+.delivery_output span, .pay_method span {
+    color: #000000;
+    font-size: 21px;
+    font-weight: 700;
+}
+.order_info p {
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.order_info {
+    width: 530px;
+    margin-bottom: 64px;
+}
 
+.order_info_list {
+    width: 192px;
+    height: 88px;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.order_info_list li {
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+}
+.pay_method {
+    width: 530px;
+    padding: 34px 0 45px 39px;
+    margin-bottom: 37px;
+}
+.pay_method span {
+    display: block;
+    margin-bottom: 18px;
+}
+.pay_method p {
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+    display: inline-flex;
+    margin-left: 34px;
+}
+.total_prices {
+    margin-left: 39px;
+    padding-bottom: 80px;
+}
+.total_prices p {
+    height: 23px;
+    color: #595959;
+    font-size: 18px;
+    font-weight: 400;
+}
+.total_prices span {
+    color: #595959;
+    font-size: 22px;
+    font-weight: 700;
+}
+.share_txt {
+    width: 289px;
+    margin-bottom: 41px;
+}
+.share_txt p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+}
 
+.invite_form label {
+    display: block;
+    height: 23px;
+    color: #595959;
+    font-size: 20px;
+    font-weight: 500;
+}
+.invite_form input {
+    width: 224px;
+    height: 61px;
+    border: 2px solid #9b9b9b;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.invite_form input::placeholder {
+    color: #9b9b9b;
+    font-size: 20px;
+    font-weight: 500;
+}
+.email_btn {
+    width: 60px;
+    height: 61px;
+    background-color: #4a90e2;
+    border: none;
+    vertical-align: top;
+    position: relative;
+}
+
+.email_btn:after, .email_btn:before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 2px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+.email_btn:before {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.invite_btn {
+    width: 284px;
+    height: 61px;
+    box-shadow: 6px 6px 16px #f9624d, -6px -6px 16px #ffffff;
+    border-radius: 2px;
+    border: 1px solid #d0021b;
+    background-color: #f9624d;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    transition: 0.5s;
+}
+.invite_btn:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transition: 0.5s;
+}
+.share_btn {
+    margin: 42px 0;
+}
+.share_btn button {
+    width: 285px;
+    height: 61px;
+    border-radius: 2px;
+    border: 1px solid #3d3e5d;
+    background-color: #083340;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.share_btn button:hover {
+    box-shadow: 6px 6px 12px #083340, -9px 0 12px rgba(13, 15, 49, 0.42);
+    transition: 0.5s;
+}
+.share_linkedin {
+    background-image: url("images/confirmation/sharelinkedin.png");
+    margin-bottom: 20px;
+}
+.share_twitter {
+    background-image: url("images/confirmation/sharetwitter.png");
+}
+.link_share p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 41px 0 23px;
+}
+.link_copy_form {
+    display: flex;
+}
+.link_copy_form input {
+    width: 195px;
+    height: 61px;
+    border: 2px dashed #9b9b9b;
+    background-color: #ffffff;
+    color: #9b9b9b;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 25px 21px 22px;
+}
+
+.link_copy_form button {
+    width: 89px;
+    height: 61px;
+    background-color: #9b9b9b;
+    color: #ffffff;
+    vertical-align: top;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+}
 
 /*video section*/
 .video {
