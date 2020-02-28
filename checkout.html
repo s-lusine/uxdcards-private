@@ -42,6 +42,7 @@
                                     <img src="images/checkout/numb5.png" alt="numb5">
                                     <span class="uxdcard_deck brandontext-regular">UXD Card Deck</span>
                                 </a>
+                                <img class="confirm_msg" src="images/checkout/confirmmsg.png">
                             </li>
                             <li class="check_li">
                                 <a href="#" data-toggle="modal" data-target="#notify" class="notify checkout_card">Checkout</a>
@@ -69,7 +70,7 @@
 </header>
 <div class="select_section">
     <div class="payment-container">
-        <img src="images/checkout/numb1.png">
+        <img class="check_numbs" src="images/checkout/numb1.png" alt="numb1">
         <div class="row">
                 <div class="col-md-6 units_col">
                     <span class="select_title bold_txt">Select your volume</span>
@@ -94,7 +95,7 @@
 </div>
 <div class="address_section">
     <div class="payment-container">
-        <img src="images/checkout/numb2.png">
+        <img  class="check_numbs" src="images/checkout/numb2.png" alt="numb2">
         <div class="row">
             <div class="col-md-12 form_col">
                 <form class="billing_form">
@@ -174,7 +175,7 @@
 </div>
 <div class="payment_section">
     <div class="payment-container">
-        <img src="images/checkout/numb3.png">
+        <img  class="check_numbs" src="images/checkout/numb3.png" alt="numb3">
         <div class="row">
             <div class="col-md-12">
                 <span class="select_title bold_txt">Select your preferred payment method</span>
@@ -309,6 +310,11 @@
 
     ga('create', 'UA-89303361-1', 'auto');
     ga('send', 'pageview');
+</script>
+<script>
+   $('.bil_inputs input').click(function() {
+        $(this).parent().toggleClass('checked');
+   })
 </script>
 </body>
 </html>
