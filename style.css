@@ -1,3 +1,14 @@
+html,body
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border: solid 10px #ffffff;
+    font-family: 'BrandonText Regular' !important;
+}
+
 a,
 a:focus,
 a:hover,
@@ -25,13 +36,6 @@ a:hover {
     transition: 0.5s;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: solid 10px #ffffff;
-    font-family: 'BrandonText Regular' !important;
-}
 
 .navbar-default,
 .relative {
@@ -635,14 +639,14 @@ input[type=number]::-webkit-outer-spin-button {
     border: 1px solid #9b9b9b;
     background-color: #ffffff;
     outline: none;
-    padding-left: 24px;
+    padding-left: 44px;
 }
 .add_form input::placeholder {
     color: #9b9b9b;
     font-family: 'Lato Medium';
     font-size: 19px;
     font-weight: 500;
-    padding-left: 38px;
+    padding-left: 30px;
 }
 .big_input input {
     width: 837px;
@@ -668,6 +672,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .payment_section {
     padding-bottom: 90px;
+}
+.payment_system {
+    margin-bottom: 60px;
 }
 .secure_title_div {
     margin: 0 0 51px;
@@ -1046,6 +1053,9 @@ input[type=number]::-webkit-outer-spin-button {
 .partners_imgs {
     filter: grayscale(1);
     transition: 0.5s;
+}
+.partners_svg {
+    vertical-align: middle;
 }
 .partners_svg:hover {
     fill: #3260B1;

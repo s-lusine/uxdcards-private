@@ -104,7 +104,7 @@
 	}
 	.cards_box {
 		padding-top: 0;
-		height: 501px;
+		height: 201px;
 		padding-left: 0;
 		margin-top: 32px;
 	}
@@ -368,6 +368,33 @@
 		text-align: center;
 		color: #414141;
 	}
+	.method_left  {
+		display: none;
+	}
+	.method_right .methodr_img1, .methodr_img3, .methodr_img8 {
+		display: none;
+	}
+	.methodr_img2 {
+		right: -25%;
+		top: -245px;
+		transform: rotate(-33deg);
+	}
+	.methodr_img4 {
+		right: 21%;
+		top: 7px;
+	}
+	.methodr_img6 {
+		top: -245px;
+		right: 85%;
+	}
+	.methodr_img5 {
+		right: -21%;
+		top: -70px;
+	}
+	.methodr_img7 {
+		right: 79%;
+		top: -85px;
+	}
 
 	/*footer*/
 	footer {
@@ -488,6 +515,7 @@
 		line-height: 19px;
 		margin-bottom: 25px;
 	}
+
 
 
 	.border-right{border:none;}
