@@ -166,8 +166,9 @@
 
 	/*flash cards section*/
 	.flash-cards-ux {
-		height: 608px;
-		background-position: right;
+		background-image: url("images/steady-bg.png");
+		background-repeat: no-repeat;
+		height: 600px;
 	}
 	.flash-cards-div {
 		margin: 0;
