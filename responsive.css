@@ -108,6 +108,9 @@
 		padding-left: 0;
 		margin-top: 32px;
 	}
+	.card_position2 {
+		left: 125px;
+	}
 
 	/*video section*/
 	.preorder_section {
@@ -121,7 +124,6 @@
 		margin-top: 39px;
 	}
 	.video-title {
-		height: 40px;
 		font-size: 14px;
 		line-height: 1.43;
 		color: #000;
@@ -533,5 +535,4 @@
 	.modal-content{padding:30px 10px;padding-bottom:10px;}
 	.modal button.close{margin-top:-20px;margin-right:0;}
 
-	.card_position2{display:none;}
 }
