@@ -316,11 +316,11 @@
 		color: #000000;
 	}
 	.testimonial .comment {
-		width: 292px;
+		width: 270px;
 		height: 199px;
 		box-shadow: -3px -3px 8px 0 #ffffff, 3px 3px 8px 0 rgba(209, 205, 199, 0.5);
 		border: solid 1px #ffffff;
-		padding: 21px 28px 40px 27px;
+		padding: 21px 10px 40px 15px;
 		background-color: #fbfbfa;
 	}
 	.testimonial .comment p {
@@ -329,6 +329,9 @@
 		font-size: 14px;
 		line-height: 1.64;
 		color: #000000;
+	}
+	.testimonial {
+		padding-left: 5px;
 	}
 
 	.testimonial .comment:after {
