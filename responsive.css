@@ -522,6 +522,221 @@
 		margin-bottom: 25px;
 	}
 
+	/*checkout page mb*/
+	.select_section .payment-container, .address_section .payment-container, .payment_section .payment-container {
+		max-width: 311px;
+	}
+	.select_section .container, .address_section .container, .payment_section .container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	 .checkout_header {
+		background-image: linear-gradient(to top, #919191 0%, #232323 100%);
+	}
+	header .checkout_container {
+		background: none;
+	}
+	.checkout_title {
+		height: 31px;
+		font-size: 24px;
+		line-height: 31px;
+		margin-bottom: 54px;
+	}
+	.checkout_desc {
+		display: block;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 19px;
+		margin-bottom: 90px;
+	}
+
+	.check_float_cards .hidden_mb {
+		display: none;
+	}
+	.check_float_cards .visible {
+		display: block;
+		padding: 0;
+		position: absolute;
+	}
+	.mb1 {
+		top: -105px;
+		left: 0;
+	}
+	.mb2 {
+		top: -68px;
+		left: 35%;
+	}
+	.mb3 {
+		top: -100px;
+		right: 0;
+	}
+
+
+	.select_section {
+		border-top: 5px solid #ffffff;
+		border-bottom: 5px solid #ffffff;
+		padding: 50px 0;
+	}
+
+	 .payment-container {
+		max-width: 311px;
+	}
+	.check_numbs {
+		width: 25px;
+		height: 25px;
+		top: 11px;
+		left: 13px;
+	}
+	.m_d {
+		display: none;
+	}
+	.select_title {
+		color: #000000;
+		font-family: 'Europe';
+		font-size: 24px;
+		text-align: center;
+	}
+	.select_desc_mb {
+		display: block;
+		height: 36px;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 19px;
+	}
+
+	.number-input {
+		box-shadow: -6px -6px 16px #ffffff;
+		border: 1px solid #ffffff;
+	}
+	.number-input input[type=number] {
+		width: 118px;
+		height: 60px;
+		background-color: #ffffff;
+		color: #000000;
+		font-family: 'Europe';
+		font-size: 24px;
+		font-weight: 700;
+	}
+	.minus {
+		border-radius: 3px 0 0 3px;
+		background-color: #dcd8d6;
+		border: none;
+	}
+	.plus {
+		border-radius: 0 3px 3px 0;
+		background-color: #4ec06d;
+		border: none;
+	}
+	.number-input .minus:before {
+		background-color: #000000;
+	}
+	.number-input .plus:before, .number-input .plus:after {
+		background-color: #fff;
+	}
+	.cost_block {
+		margin-top: 25px;
+		padding-top: 0px;
+	}
+	.cost_title, .units_title {
+		font-family: 'BrandonText Bold';
+		font-size: 12px;
+		font-weight: 700;
+		margin-top: 38px;
+	}
+	.cost_ul {
+		width: 215px;
+		padding-inline-start: 23px;
+	}
+	.subtotal, .shipping {
+		color: #000000;
+		font-size: 14px;
+		font-weight: 500;
+		display: block;
+	}
+	.units_price {
+		font-family: 'BrandonText Medium';
+		font-size: 14px;
+		color: #000000;
+		font-weight: 400;
+	}
+	.total_title {
+		height: 14px;
+		font-family: 'BrandonText Bold';
+		font-size: 12px;
+		font-weight: 700;
+		text-align: left;
+	}
+	.total_block {
+		margin-top: 31px;
+		padding-top: 0;
+	}
+	.total_block div {
+		width: 240px;
+		height: 60px;
+		box-shadow: -5px -5px 14px #ffffff, 5px 5px 14px #d1cdc7;
+		border: 1px solid #ffffff;
+		font-family: 'Europe';
+		font-size: 24px;
+		margin: 0;
+	}
+	select {
+		display: block;
+		width: 44px;
+		border: none;
+		background: transparent;
+		color: #4a4a4a;
+		font-family: 'BrandonText Medium';
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		background-image: url("images/checkout/select.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		outline: none;
+		margin-left: 33px;
+	}
+	.form_col, .address_col {
+		display: none;
+	}
+	.delivery_address_mobile {
+		display: block;
+	}
+	.select_mb {
+		height: 28px;
+		color: #000000;
+		font-size: 24px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.deliver_desc {
+		height: 19px;
+		color: #000000;
+		font-weight: 400;
+		line-height: 19px;
+	}
+	.included {
+		display: none;
+	}
+	.bil_inputs {
+		width: 240px;
+		height: 60px;
+		box-shadow: -4px -4px 14px #ffffff, 4px 4px 14px #d1cdc7;
+		border: 1px solid #ffffff;
+		font-size: 14px;
+		font-weight: 400;
+		margin-bottom: 14px;
+	}
+
+
+
+
+
+
+
 
 
 	.border-right{border:none;}

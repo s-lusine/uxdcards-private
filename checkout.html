@@ -42,7 +42,7 @@
                                     <img src="images/checkout/numb5.png" alt="numb5">
                                     <span class="uxdcard_deck brandontext-regular">UXD Card Deck</span>
                                 </a>
-                                <img class="confirm_msg" src="images/checkout/confirmmsg.png">
+                                <img class="confirm_msg" src="images/checkout/confirmmsg.png" alt="Confirm Message">
                             </li>
                             <li class="check_li">
                                 <a href="#" data-toggle="modal" data-target="#notify" class="notify checkout_card">Checkout</a>
@@ -51,56 +51,79 @@
                     </div>
                 </nav>
             </div>
-            <div class="col-sm-12">
-                <h3 class="checkout_title europe_txt text-center white-text">
+            <div class="col-sm-12 text-center">
+                <h3 class="checkout_title europe_txt white-text">
                     Checkout
                 </h3>
+                <h4 class="brandontext-regular checkout_desc white-text">
+                    This is where the magic happens! <br>
+                    We’ll get them to the right address as<br> fast as we possible can - that’s for<br> sure
+                </h4>
             </div>
             <div class="col-sm-12 check_float_cards">
-                <img src="images/checkout/speed-dating.png" alt="card">
-                <img src="images/checkout/scenarios_4.26.15_pm.png" alt="card">
-                <img src="images/checkout/personal-inventory.png" alt="card">
-                <img src="images/checkout/empathy-mapping.png" alt="card">
-                <img src="images/checkout/aa.png" alt="card">
-                <img src="images/checkout/moodboard_4.26.15_pm.png" alt="card">
-                <img src="images/checkout/gt_4.26.15_pm.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/speed-dating.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/scenarios_4.26.15_pm.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/personal-inventory.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/empathy-mapping.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/aa.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/moodboard_4.26.15_pm.png" alt="card">
+                <img class="hidden_mb" src="images/checkout/gt_4.26.15_pm.png" alt="card">
+                <img class="visible mb1" src="images/checkout/mb1.png" alt="card">
+                <img class="visible mb2" src="images/checkout/mb2.png" alt="card">
+                <img class="visible mb3" src="images/checkout/mb3.png" alt="card">
             </div>
         </div>
     </div>
 </header>
 <div class="select_section">
-    <div class="payment-container">
+    <div class="container payment-container">
         <img class="check_numbs" src="images/checkout/numb1.png" alt="numb1">
         <div class="row">
-                <div class="col-md-6 units_col">
-                    <span class="select_title bold_txt">Select your volume</span>
-                    <h6 class="units_title med_txt">Units</h6>
-                    <div class="number-input">
-                        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
-                        <input class="quantity" min="0" name="quantity" value="1" type="number">
-                        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
-                    </div>
+            <div class="col-md-6 units_col">
+                <h5 class="select_title bold_txt">Select your volume</h5>
+                <h6 class="select_desc_mb brandontext-regular">
+                    How many decks would you like? Don’t<br> forget your friends and team!
+                </h6>
+                <h6 class="units_title med_txt">Units</h6>
+                <div class="number-input">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                    <input class="quantity" min="0" name="quantity" value="1" type="number">
+                    <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
                 </div>
-                <div class="col-md-3 cost_block">
-                    <h6 class="cost_title med_txt">Units</h6>
-                    <span class="subtotal brandontext-regular">Subtotal</span><span class="units_price med_txt">$445</span>
-                    <span class="shipping brandontext-regular">Shipping</span><span class="units_price med_txt">$30</span>
                 </div>
-                <div class="col-md-3 total_block">
-                    <h6 class="total_title med_txt">TOTAL TO PAY</h6>
-                    <div>$475</div>
+            <div class="col-md-3 cost_block">
+                <h6 class="cost_title med_txt">Cost</h6>
+                <ul class="cost_ul">
+                    <li class="subtotal brandontext-regular">
+                        Subtotal
+                        <span class="units_price med_txt">$445</span>
+                    </li>
+                    <li class="shipping brandontext-regular">
+                        Shipping
+                        <span class="units_price med_txt">$30</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 total_block">
+                <h6 class="total_title med_txt">TOTAL TO PAY</h6>
+                <div>$475
+                    <select>
+                        <option>usd</option>
+                        <option>euro</option>
+                    </select>
                 </div>
+            </div>
         </div>
     </div>
 </div>
 <div class="address_section">
-    <div class="payment-container">
+    <div class="container payment-container">
         <img  class="check_numbs" src="images/checkout/numb2.png" alt="numb2">
         <div class="row">
             <div class="col-md-12 form_col">
                 <form class="billing_form">
                     <div class="col-md-6 bil_div_col">
-                        <span class="select_title bold_txt">Enter your delivery address</span>
+                        <h5 class="select_title m_d bold_txt">Enter your delivery address</h5>
                         <h6 class="bil_title med_txt">BILLING ADDRESS *</h6>
                         <div class="bil_div brandontext-regular bil_inputs">
                             <input class="bil_address" type="checkbox">
@@ -170,15 +193,33 @@
                     </div>
                 </form>
             </div>
+            <div class="col-md-12 delivery_address_mobile">
+                <h5 class="select_mb europe_txt">Delivery address</h5>
+                <h6 class="deliver_desc brandontext-regular">Is this the same as your billing address?</h6>
+                <form class="billing_form">
+                    <div class="bil_div brandontext-regular bil_inputs">
+                        <input class="bil_address" type="checkbox">
+                        <span class="checkmark"></span>
+                        Same as delivery address
+                    </div>
+                    <div class="add_div brandontext-regular bil_inputs">
+                        <input class="another_address" type="checkbox">
+                        <span class="checkmark"></span>
+                        Enter another address
+                    </div>
+
+                </form>
+
+            </div>
         </div>
     </div>
 </div>
 <div class="payment_section">
-    <div class="payment-container">
+    <div class="container payment-container">
         <img  class="check_numbs" src="images/checkout/numb3.png" alt="numb3">
         <div class="row">
             <div class="col-md-12">
-                <span class="select_title bold_txt">Select your preferred payment method</span>
+                <h5 class="select_title bold_txt">Select your preferred payment method</h5>
                 <div class="secure_title_div">
                     <img src="images/checkout/lock.png" alt="lock">
                     <span class="secure_server brandontext-regular">Secure Server</span>
