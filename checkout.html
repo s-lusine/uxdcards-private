@@ -80,7 +80,7 @@
         <img class="check_numbs" src="images/checkout/numb1.png" alt="numb1">
         <div class="row">
             <div class="col-md-6 units_col">
-                <h5 class="select_title bold_txt">Select your volume</h5>
+                <h5 class="select_volume_title bold_txt">Select your volume</h5>
                 <h6 class="select_desc_mb brandontext-regular">
                     How many decks would you like? Don’t<br> forget your friends and team!
                 </h6>
@@ -123,28 +123,28 @@
             <div class="col-md-12 form_col">
                 <form class="billing_form">
                     <div class="col-md-6 bil_div_col">
-                        <h5 class="select_title m_d bold_txt">Enter your delivery address</h5>
+                        <h5 class="enter_title m_d bold_txt">Enter your delivery address</h5>
                         <h6 class="bil_title med_txt">BILLING ADDRESS *</h6>
                         <div class="bil_div brandontext-regular bil_inputs">
-                            <input class="bil_address" type="checkbox">
+                            <input class="checked_inputs bil_address" type="checkbox">
                             <span class="checkmark"></span>
                             Yes, they are the same
                         </div>
                         <h6 class="type_title med_txt">TYPE OF ADDRESS *</h6>
                         <div class="bil_div brandontext-regular bil_inputs">
-                            <input class="type_address" type="checkbox">
+                            <input class="checked_inputs type_address" type="checkbox">
                             <span class="checkmark"></span>
                             Home/Residential
                         </div>
                     </div>
                     <div class="col-md-6 add_div_col">
                         <div class="add_div brandontext-regular bil_inputs">
-                            <input class="another_address" type="checkbox">
+                            <input class="checked_inputs another_address" type="checkbox">
                             <span class="checkmark"></span>
                             Enter another address
                         </div>
                         <div class="add_div brandontext-regular bil_inputs">
-                            <input class="com_address" type="checkbox">
+                            <input class="checked_inputs com_address" type="checkbox">
                             <span class="checkmark"></span>
                             Office/Commercial
                         </div>
@@ -207,9 +207,56 @@
                         <span class="checkmark"></span>
                         Enter another address
                     </div>
-
+                    <label class="brandon-bold">DELIVERY ADDRESS *</label>
+                    <div class="add_input_mb">
+                       <input class="input_mb" type="checkbox">
+                       <span class="deliver_checkmark"></span>
+                        Unit/Street number and address
+                   </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="cityName_mb">CITY/DISTRICT *</label>
+                        <input class="input_mb" id="cityName_mb" type="text" placeholder="Name of your city">
+                    </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="state_mb">STATE *</label>
+                        <input class="input_mb" id="state_mb" type="text" placeholder="Name of your state">
+                    </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="zip_mb">ZIP/POSTCODE *</label>
+                        <input id="zip_mb" class="input_mb" type="number" placeholder="Your zip or postcode">
+                    </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="country_mb">COUNTRY *</label>
+                       <select id="country_mb">
+                           <option>Your Country</option>
+                           <option></option>
+                           <option></option>
+                       </select>
+                    </div>
+                    <label class="brandon-bold">TYPE OF ADDRESS *</label>
+                    <div class="bil_div brandontext-regular bil_inputs">
+                        <input class="bil_address" type="checkbox">
+                        <span class="checkmark"></span>
+                        Home/Residential
+                    </div>
+                    <div class="add_div brandontext-regular bil_inputs">
+                        <input class="another_address" type="checkbox">
+                        <span class="checkmark"></span>
+                        Office/Commercial
+                    </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="name_mb">NAME *</label>
+                        <input id="name_mb" class="input_mb" type="text" placeholder="First and last name">
+                    </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="email_mb">EMAIL ADDRESS *</label>
+                        <input id="email_mb" class="input_mb" type="email" placeholder="Your best email address">
+                    </div>
+                    <div class="mb_inputs">
+                        <label class="brandon-bold" for="phone_mb">PHONE NUMBER *</label>
+                        <input id="phone_mb" class="input_mb" type="number" placeholder="Your mobile phone number">
+                    </div>
                 </form>
-
             </div>
         </div>
     </div>
@@ -219,29 +266,48 @@
         <img  class="check_numbs" src="images/checkout/numb3.png" alt="numb3">
         <div class="row">
             <div class="col-md-12">
-                <h5 class="select_title bold_txt">Select your preferred payment method</h5>
+                <h5 class="select_pay_title bold_txt">Select your preferred payment method</h5>
+                <h6 class="pay_title_mb europe_txt text-center">Payment method</h6>
+                <h6 class="brandontext-regular pay_title_mb_desc">Choose your preferred payment method<br> below to finalize your purchase. </h6>
                 <div class="secure_title_div">
                     <img src="images/checkout/lock.png" alt="lock">
                     <span class="secure_server brandontext-regular">Secure Server</span>
                 </div>
             </div>
             <div class="col-md-8 payment_system">
-                <div class="payment_div med_txt paypalimg">
-                    <input type="checkbox">
+                <h6 class="pay_method_label brandon-bold">Select payment method</h6>
+                <div class="payment_div paypal_div med_txt paypalimg">
+                    <input class="paypal_checkbox" type="checkbox">
                     <span class="pay_checkmark"></span>
-                    Paypal
+                    PayPal
                 </div>
-                <div class="payment_div med_txt visaimg">
+                <div class="paypal_info">
+                    <div class="secure_txt">
+                        <img src="images/checkout/circle.png" alt="Circle">
+                        <span class="brandontext-regular warn_txt">
+                            In order to complete your<br> transaction, we will transfer<br> you to Paypal’s secure<br> servers.
+                        </span>
+                    </div>
+                    <h6 class="paypal_price brandon-bold">$475</h6>
+                    <p class="trial_day brandontext-regular">UXD Cards: 75 method cards. Plus 30-<br>day trial to the digital Method Library,<br>Design Compass and Workspace.</p>
+                    <p class="coupon brandontext-regular">Coupon?</p>
+                    <button class="proceed">Proceed</button>
+                    <a class="brandontext-regular terms" href="#">
+                        By submitting this form you agree to the following
+                        <span>Terms & Conditions</span>
+                    </a>
+                </div>
+                <div class="payment_div pay_div_mb med_txt visaimg">
                     <input type="checkbox">
                     <span class="pay_checkmark"></span>
                     Credit Card
                 </div>
-                <div class="payment_div med_txt cryptoimg">
+                <div class="payment_div pay_div_mb med_txt cryptoimg">
                     <input type="checkbox">
                     <span class="pay_checkmark"></span>
                     Crypto
                 </div>
-                <div class="payment_div med_txt appleimg">
+                <div class="payment_div pay_div_mb med_txt appleimg">
                     <input type="checkbox">
                     <span class="pay_checkmark"></span>
                     Apple Pay
@@ -259,6 +325,45 @@
         </div>
     </div>
 </div>
+<section class="block-view">
+    <div class="content text-center clearfix">
+        <div class="container">
+            <div class="row floating_images">
+                <div class="col-sm-2">
+                    <div class="method_left">
+                        <img class="methodl_img1" src="images/floating_cards/methodl_img1.png" alt="floatingCard" />
+                        <img class="methodl_img2" src="images/floating_cards/methodl_img2.png" alt="floatingCard" />
+                        <img class="methodl_img3" src="images/floating_cards/methodl_img3.png" alt="floatingCard" />
+                        <img class="methodl_img4" src="images/floating_cards/methodl_img4.png" alt="floatingCard" />
+                        <img class="methodl_img5" src="images/floating_cards/methodl_img5.png" alt="floatingCard" />
+                        <img class="methodl_img6" src="images/floating_cards/methodl_img6.png" alt="floatingCard" />
+                        <img class="methodl_img7" src="images/floating_cards/methodl_img7.png" alt="floatingCard" />
+                        <img class="methodl_img8" src="images/floating_cards/methodl_img8.png" alt="floatingCard" />
+                    </div>
+                </div>
+                <div class="col-sm-8 method-center-col">
+                    <div class="method-center">
+                        <h5>Get Your UXD Method Cards Now</h5>
+                        <button class="cards_btn">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#notify" class="rounded-button">Get Cards</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="method_right">
+                        <img class="methodr_img1" src="images/floating_cards/methodr_img1.png" alt="floatingCard" />
+                        <img class="methodr_img2" src="images/floating_cards/methodr_img2.png" alt="floatingCard" />
+                        <img class="methodr_img3" src="images/floating_cards/methodr_img3.png" alt="floatingCard" />
+                        <img class="methodr_img4" src="images/floating_cards/methodr_img4.png" alt="floatingCard" />
+                        <img class="methodr_img5" src="images/floating_cards/methodr_img5.png" alt="floatingCard" />
+                        <img class="methodr_img6" src="images/floating_cards/methodr_img6.png" alt="floatingCard" />
+                        <img class="methodr_img7" src="images/floating_cards/methodr_img7.png" alt="floatingCard" />
+                        <img class="methodr_img8" src="images/floating_cards/methodr_img8.png" alt="floatingCard" />
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 <footer>
     <div class="container">
         <div class="row">
@@ -357,5 +462,16 @@
         $(this).parent().toggleClass('checked');
    })
 </script>
+
+<script>
+    $('.paypal_checkbox').click(function() {
+        $(this).parent().toggleClass('active_border');
+    })
+</script><script>
+    $('.add_input_mb').click(function() {
+        $(this).toggleClass('active_border');
+    })
+</script>
+
 </body>
 </html>

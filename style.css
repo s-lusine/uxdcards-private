@@ -378,14 +378,24 @@ header .checkout_container {
     display: none;
 }
 
-.select_title {
+.select_volume_title, .enter_title, .select_pay_title {
     height: 43px;
     color: #262626;
     font-size: 34px;
     font-weight: 700;
     vertical-align: middle;
 }
-select {
+.paypal_info {
+    display: none;
+}
+.pay_method_label {
+    display: none;
+}
+
+.pay_title_mb, .pay_title_mb_desc {
+    display: none;
+}
+.total_block select {
     display: none;
 }
 
@@ -559,7 +569,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* Create a custom radio button */
 /* Hide the browser's default radio button */
-.billing_form input {
+.billing_form .checked_inputs {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -604,7 +614,7 @@ input[type=number]::-webkit-outer-spin-button {
    display: block;
 }
 
-.checked   {
+.bil_inputs.checked  {
     border: 2px solid #25c44e;
     background-color: #ffffff;
     color: #000000;
