@@ -301,7 +301,10 @@ header .checkout_container {
     position: absolute;
     top: 75%;
     left: 51%;
+    display: none;
+    transition: 0.5s;
 }
+
 .checkout_title {
     font-size: 50px;
     font-weight: 700;
@@ -820,6 +823,12 @@ input[type=number]::-webkit-outer-spin-button {
 .confirm_main_txt {
     margin-bottom: 55px;
 }
+.confirm_main_txt_mb {
+    display: none;
+}
+.details_txt_mb {
+    display: none;
+}
 .line img {
     width: 100%;
     border-bottom: 10px solid #fff;
@@ -852,6 +861,9 @@ input[type=number]::-webkit-outer-spin-button {
     line-height: 20px;
     margin-bottom: 38px;
 }
+.purchase_txt span, .order_info span {
+    margin-left: 3px;
+}
 .delivery_output, .pay_method {
     border: 1px solid #9b9b9b;
     background-color: #ffffff;
@@ -882,6 +894,9 @@ input[type=number]::-webkit-outer-spin-button {
     width: 530px;
     margin-bottom: 64px;
 }
+.order_info_list_mb {
+    display: none;
+}
 
 .order_info_list {
     width: 192px;
@@ -899,6 +914,9 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 34px 0 45px 39px;
     margin-bottom: 37px;
 }
+.pay_method_mb {
+    display: none;
+}
 .pay_method span {
     display: block;
     margin-bottom: 18px;
@@ -914,6 +932,9 @@ input[type=number]::-webkit-outer-spin-button {
     margin-left: 39px;
     padding-bottom: 80px;
 }
+.paid {
+    display: none;
+}
 .total_prices p {
     height: 23px;
     color: #595959;
@@ -925,6 +946,9 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 22px;
     font-weight: 700;
 }
+.order_track_div {
+    display: none;
+}
 .share_txt {
     width: 289px;
     margin-bottom: 41px;
@@ -933,6 +957,9 @@ input[type=number]::-webkit-outer-spin-button {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
+}
+.share_title_mb {
+    display: none;
 }
 
 .invite_form label {
@@ -997,6 +1024,9 @@ input[type=number]::-webkit-outer-spin-button {
 .share_btn {
     margin: 42px 0;
 }
+.or_img_mb {
+    display: none;
+}
 .share_btn button {
     width: 285px;
     height: 61px;
@@ -1008,6 +1038,9 @@ input[type=number]::-webkit-outer-spin-button {
     font-weight: 400;
     background-repeat: no-repeat;
     transition: 0.5s;
+}
+.ref_link {
+    display: none;
 }
 .share_btn button:hover {
     box-shadow: 6px 6px 12px #083340, -9px 0 12px rgba(13, 15, 49, 0.42);
