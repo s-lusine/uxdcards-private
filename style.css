@@ -224,6 +224,323 @@ header .container {
     background-size: cover;
     background-position: 0 105px;
 }
+/* Order Summary */
+.imagesIconA {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.imagesIcon {
+    display: flex;
+    margin-left: 48px;
+    margin-bottom: 60px;
+}
+
+.sect {
+    margin: 40px 130px 65px
+}
+
+/* Style for "Last chanc" */
+.LastChanc {
+    font-family: "Brandon Text - Regular";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* Style for "EDIT" */
+.brandontextRegular {
+    font-family: "Brandon Text - Regular";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #000000;
+    display: inline-block;
+    margin-left: 110px;
+}
+
+.freeMargin {
+    margin-top: 24px;
+}
+
+.textName {
+    font-family: "Brandon Text - Bold";
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.textP {
+
+    color: #000000;
+    font-family: "Brandon Text - Medium";
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Rectangle_17 {
+    margin-top: 18px;
+    width: 174px;
+    height: 62px;
+    box-shadow: -5px -5px 14px #ffffff, 5px 5px 14px #d1cdc7;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Brandon Text - Bold";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Style for "Delivery o" */
+.DeliveryOptions {
+    color: #262626;
+    font-family: "Brandon Text - Bold";
+    font-size: 34px;
+    font-weight: 700;
+    margin: 60px 0 63px;
+}
+
+/* Style for "Delivering" */
+.DeliveringTo {
+    color: #262626;
+    font-family: "Brandon Text - Bold";
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.df {
+    display: flex;
+    margin-left: 48px;
+}
+
+
+.db {
+    /* margin-left: 100px; */
+    display: inline-block;
+}
+
+.UXDCards {
+    margin-bottom: 38px;
+    color: #000000;
+    font-family: "Brandon Text - Bold";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Style for "3 item(s)" */
+
+.items {
+    color: #000000;
+    font-family: "Brandon Text - Regular";
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* Text style for "3" */
+.items3 {
+    font-size: 18px;
+    font-family: "Brandon Text - Bold";
+    font-weight: 700;
+}
+
+/* Style for "Rectangle" */
+.naskMargin .StyleRectangle {
+    padding-top: 19px;
+    width: 400px;
+    height: 169px;
+    box-shadow: 6px 6px 16px #d1cdc7, -6px -6px 16px #ffffff;
+    border: 1px solid #9b9b9b;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+/* Style for "Shipping" */
+.ShippingFree {
+    display: inline-block;
+    color: #000000;
+    font-family: "Brandon Text - Medium";
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 108px;
+}
+
+/* Style for "Tax" */
+.Tax {
+    margin-left: 100px;
+    color: #000000;
+    font-family: "Brandon Text - Medium";
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/* Text style for "Tax" */
+.TaxP {
+    margin-right: 145px;
+    color: #000000;
+    font-size: 18px;
+    font-family: "Brandon Text - Regular";
+    font-weight: 400;
+    display: inline-block;
+}
+
+/* Style for "Subtotal" */
+.Subtotal {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Brandon Text - Regular";
+    font-weight: 400;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+/* Text style for "Subtotal" */
+.Subtotal4 {
+    color: #000000;
+    font-family: "Brandon Text - Medium";
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.Shipping {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Brandon Text - Regular";
+    font-weight: 400;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.naskMargin .StyleRectangle1 {
+    padding-top: 10px;
+    margin-bottom: 120px;
+    width: 400px;
+    height: 169px;
+    border: 1px solid #9b9b9b;
+    background-color: #ffffff;
+}
+/* Style for "Rectangle" */
+.inlineGrad {
+    margin-top: 176px;
+    /* width: 1280px; */
+    height: 22px;
+    background-image: linear-gradient(270deg, #f9624d 0%, #343434 100%);
+}
+
+hr {
+    width: 317px;
+}
+
+/* Style for "Discount c" */
+.Discount {
+    color: #000000;
+    font-family: "Brandon Text - Regular";
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.DiscountADD {
+    color: #000000;
+    font-family: "Brandon Text - Regular";
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+/* Style for "Total" */
+.Total {
+    color: #000000;
+    font-family: "Brandon Text - Bold";
+    font-size: 15px;
+    font-weight: 700;
+    font-size: 25px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+/* Text style for "Total, $47" */
+.Total4 {
+    margin-left: 20px;
+    display: inline-block;
+    color: #000000;
+    font-family: "Brandon Text - Bold";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nask {
+
+    box-shadow: inset 6px 6px 16px #d1cdc7, inset -6px -6px 16px #ffffff;
+    border: 10px solid #ffffff;
+    background-color: #f3f2f1;
+}
+
+.iconColor {
+    width: 20px;
+    height: 20px;
+
+}
+
+.evropaBold {
+    font-family: "Europa - Bold";
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* Style for "Thursday," */
+.ThursDay {
+    font-size: 18px;
+    color: #000000;
+    font-family: "Brandon Text - Bold";
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* Text style for "Thursday," */
+.ThursDayP {
+    font-family: "Brandon Text - Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Style for "Order Summ" */
+.OrderSumm {
+    color: #262626;
+    font-family: "Brandon Text - Bold";
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+/* Style for "Rectangle" */
+.PLACE_ORDER {
+    margin-top: 48px;
+    width: 284px;
+    height: 61px;
+    box-shadow: 3px 3px 16px #ff6040, -3px -3px 14px #ffffff;
+    border: 1px solid #d0021b;
+    background-color: #f9624d;
+    /* Style for "PLACE ORDE" */
+    color: #ffffff;
+    font-family: "Brandon Text - Bold";
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .home .collapse{
     margin-bottom: 83px;
 }
