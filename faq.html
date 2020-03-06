@@ -3,103 +3,92 @@
     <head>
         <meta charset="UTF-8">
         <title>UX Cards | FAQ</title>
-        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="_stylesheet.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="responsive.css" media="(max-width:900px)">
         <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-        <script type="text/javascript">
-            window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-            heap.load("1101135621");
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-89303361-1', 'auto');
-            ga('send', 'pageview');
-
-      </script>
     </head>
-    <body>
-        <header class="single-color">
-            <div class="container">
-                <div class="row">
-                    <nav class="col-sm-12">
-                        <div class="navbar navbar-default">
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                    <a class="navbar-brand logo" href="index">&nbsp;</a>
-                                </div>
-
-                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li><a href="uses"><span>Uses</span></a></li>
-                                        <li><a href="cards"><span>Cards</span></a></li>
-                                        <li><a href="faq" class="active"><span>faq</span></a></li>
-                                        <li><a href="#" data-toggle="modal" data-target="#notify" class="notify">Notify</a></li>
-                                    </ul>
-                                </div>
-                        </div>
-                    </nav>
-                    <div class="text-center header-title">
-                        <h3 class="brandontext-regular fs-38 white-text">Frequently Asked Questions</h3>
-                    </div>
-                </div>
-            </div>
-        </header>
+    <body id="faq">
+    <header class="home single-color">
         <div class="container">
             <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand logo" href="index.html">&nbsp</a>
+                        </div>
+                        <div class="collapse navbar-collapse home_navbar" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="uses-bk.html"><span>Uses</span></a></li>
+                                <li><a href="cards.html"><span>Cards</span></a></li>
+                                <li><a class="active" href="faq.html"><span>faq</span></a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#notify" class="notify header_card">Get Cards</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-sm-12 faq_header_txt_row text-center">
+                    <h3 class="faq_heading_title europe_txt white-text wow fadeIn">
+                        Frequent Asked Questions
+                    </h3>
+                    <span class="faq_sub_title med_txt  white-text wow fadeIn">
+                        Why you should consider adding this  to your design toolkit; why this product? Why now?<br>And so many more questions answered below
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="faq_section">
+        <div class="container faq_container">
+            <div class="row faq_section_row">
                 <div class="col-md-8">
-                    <br><br><br>
                     <div class="panel-group faq-group" id="accordion">
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq1" aria-expanded="true">Why did you make these?</a>
+                                <h3 class="panel-title brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq1" aria-expanded="true">Why have you created UXD cards?</a>
                                 </h3>
                             </div>
                             <div id="faq1" class="panel-collapse collapse in">
                                 <div class="panel-body">
-                                    <div class="answer dark-474747 fs-18 brandontext-regular">Despite bookmarking hundreds of posts and articles on UX, it’s easy to feel like you still haven’t quite grasped UX in its entirety— it’s a big topic! After listening to other UX designers express their desires, frustrations (and titillation), at all the evolving methods in UX it became clear that the industry needed a tool, something to refer to.. Especially when dealing with stakeholders and clients whose understanding of UX, at best, is often fuzzy.<br><br>
-
-									UXD Cards help clear up misconceptions, enable rapid learning, and prove invaluable in project planning. They’re portable, interactive, and would make it easier to recall and share essential information on the UX design process.
+                                    <div class="answer dark-474747 fs-18 brandontext-regular">
+                                        Despite bookmarking hundreds of posts and articles on UX, it’s easy to feel like you still haven’t
+                                        quite grasped UX in its entirety— it’s a big topic! After listening to other UX designers express their desires,
+                                        frustrations (and titillation), at all the evolving methods in UX it became clear that the industry needed a tool,
+                                        something to refer to.. Especially when dealing with stakeholders and clients whose understanding of UX, at best, is often fuzzy.<br>
+                                        <br>
+									    UXD Cards help clear up misconceptions, enable rapid learning, and prove invaluable in project planning.
+                                        They’re portable, interactive, and would make it easier to recall and share essential information on the UX design process.
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq2">Love the idea, what are the specifications?</a>
+                                <h3 class="panel-title  brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq2">UX is always evolving, why cards? why now?</a>
                                 </h3>
                             </div>
                             <div id="faq2" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <div class="answer dark-474747 fs-18 brandontext-regular">Great question. Here they are:<br><br>
-                                    <ul>
-                                        <li>88mm x 148mm (3.45 x 5.75 inches)</li>
-                                        <li>350gsm silk-paper, matt finished both sides</li>
-                                        <li>Round corners</li>
-                                        <li>Matt finish, flush box</li>
-                                        <li>6-page fold out instruction booklet</li>
-                                        <li>Weight: 0.4kg</li>
-                                    </ul>
-                                    </div>
+                                    With a growing number of frameworks, methods and tools, making a method deck seemed the logical next step.
+                                    The cards can be a huge time saver, easily integrate into existing workflows and brings productivity
+                                    to team and stakeholder meetings.
                                 </div>
                             </div>
                         </div>
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq3">Why cards? Why not an app?</a>
+                                <h3 class="panel-title brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq3">I’m a senior UX designer? Is this of any value to me?</a>
                                 </h3>
                             </div>
                             <div id="faq3" class="panel-collapse collapse">
@@ -115,8 +104,8 @@
                         </div>
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq4">OK, but will you make an app eventually? Everyone has an app.</a>
+                                <h3 class="panel-title  brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq4">I’m still quite new to UX, is this of any value to me? </a>
                                 </h3>
                             </div>
                             <div id="faq4" class="panel-collapse collapse">
@@ -128,8 +117,8 @@
                         </div>
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq5">I’m still quite new to UX, is this of any value to me?</a>
+                                <h3 class="panel-title brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq5">I want a discount, how do I get one?</a>
                                 </h3>
                             </div>
                             <div id="faq5" class="panel-collapse collapse">
@@ -142,8 +131,8 @@
                         </div>
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq6">I’m a senior UX Designer, is this of any value to me?</a>
+                                <h3 class="panel-title  brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq6">What is the cost of shipping? </a>
                                 </h3>
                             </div>
                             <div id="faq6" class="panel-collapse collapse">
@@ -160,150 +149,168 @@
                         </div>
                         <div class="panel">
                             <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq7">How did you come to this price for a card deck?</a>
+                                <h3 class="panel-title  brandon-bold text-uppercase faq-question dark-474747">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq7">How can I get more involved? Can I improve the deck?</a>
                                 </h3>
                             </div>
                             <div id="faq7" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <div class="answer dark-474747 fs-18 brandontext-regular">
                                         The cost of designing, printing, shipping, fulfilment, marketing—not to mention the cost of coffee, pizza, and late nights spent in front of the computer—is higher than we had hoped for. But we’ve got a great accountant who assures us that we can make it work and have still enough leftover to continue creating awesome analogue products for designers.
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq8">What are the shipping costs?</a>
-                                </h3>
-                            </div>
-                            <div id="faq8" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="answer dark-474747 fs-18 brandontext-regular">
-                                        In short, it varies. If you live in a small igloo near the Arctic circle your shipping costs will be a little different than if you lived down the road from us. That said, here are the average shipping costs. We try our best to stay within these ranges:<br><br>
-
-										Here are the average shipping costs and we try to keep within these ranges:<br><br>
-
-										&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;&nbsp;Domestic shipping (US): $5 USD<br>
-										&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;&nbsp;International shipping (Worldwide): $15 USD<br><br>
-
-										Again, your mileage may vary. In some countries, shipping can be as high as $75 USD. If you have been subject to high shipping fees in the past, please ensure that the total cart price at checkout is reflective of your standard shipping fees in your region. If not, please <a href="#" data-toggle="modal" data-target="#contact">Contact</a> us to arrange alternative delivery methods. Please also take note of local custom and taxes in your region.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq9">I want a discount, how do I get one?</a>
-                                </h3>
-                            </div>
-                            <div id="faq9" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="answer dark-474747 fs-18 brandontext-regular">
-                                        Well aren’t you a savvy shopper. There are several ways to get a discount:<br><br>
-                                        <ul>
-                                            <li>The easiest way is volume or group purchase which enables discounts when you purchase multiple decks at the same time.</li>
-                                            <li>Provide us with a glowing testimonial or endorsement. <a href="#" data-toggle="modal" data-target="#contact">let us know</a> what you said and where you said it.</li>
-                                            <li>Get us a write up in a major media outlet, blog or publication.</li>
-                                            <li>Do something extraordinary or daring with the cards (nothing life threatening please!)</li>
-                                            <li>Refer 10 or more customers and get your deck free! Limited 1 per company.</li>
-                                            <li>Be (or work in) a charity, NGO, or not-for-profit and we’ll get a few decks to you at cost price.</li>
-                                            <li>Make us an offer we can’t refuse— the more creative the better your chances!</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq10">I love what you’re doing, how can I get more involved?</a>
-                                </h3>
-                            </div>
-                            <div id="faq10" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="answer dark-474747 fs-18 brandontext-regular">
-                                    We’re delighted to find people like you, particularly when you do actually make a positive difference. Beyond telling your friends and colleagues, we’d be grateful if you could contribute to the creation of future method cards. You can click on the suggest a card button or visit <a href="https://uxdbootcamp.com">https://uxdbootcamp.com</a> and suggest a method there as well, don’t worry, we’ll make sure you get full credit for your work.<br><br>
-										Future editions will come in two formats:<br>
-										    &nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expansion packs, and;<br>
-										    &nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;&nbsp;&nbsp;New editions
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h3 class="panel-title brandontext-regular fs-18 text-uppercase faq-question dark-474747">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#faq11">Can I reuse or republish your content?</a>
-                                </h3>
-                            </div>
-                            <div id="faq11" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="answer dark-474747 fs-18 brandontext-regular">
-                                       Fluff no! UXD Cards are available under a BY-NC-SA 2.0 Creative Commons license. That means you can use the content but you can’t profit from it and you have to give us full credit. Also, make sure you’re only sharing our stuff through the same channels as ourselves, meaning don’t go and create an app using any of our content or our name “UXD Cards” or “UX Method Cards”— which are in the process of being trademarked.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="faq-bottom">
-                        <span class="contact-faq brandontext-regular fs-28 dark-474747">Have a question?</span><a href="#" data-toggle="modal" data-target="#contact" class="notify rounded-button lato-regular">Contact Us</a>
+                        <span class="contact-faq brandontext-regular">
+                           Have even more questions?
+                        </span>
+                        <button class="cards_btn">
+                            <a href="#" data-toggle="modal" data-target="#contact" class="notify rounded-button brandon-bold">Contact</a>
+                        </button>
+                    </div>
+                    <div class="faq-bottom-mb">
+                        <span class="contact-faq europe_txt">
+                          Get Intouch
+                        </span>
+                        <p class="med_txt">
+                            If you have a few more questions you<br> want us to answer, please contact us.
+                        </p>
+                        <button class="cards_btn">
+                            <a href="#" data-toggle="modal" data-target="#contact" class="notify rounded-button brandon-bold">Contact</a>
+                        </button>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <br><br><br>
-                    <div class="faq-sidebar">
-                        <h4 class="brandontext-regular dark-474747">Suggest a new UX card</h4>
-                        <p class="dark-474747">We may add it to future editions</p>
-                        <div class="image-sidebar"><img src="images/suggest-page.png" /></div>
-                        <a href="javascript:void(0)" data-toggle="modal" data-target="#suggest" class="rounded-button lato-regular">SUGGEST A CARD</a>
+                    <div class="faq_btn_section">
+                        <img class="faq_main_img" src="images/faq/faq.png" alt="Suggestion">
+                        <button class="suggest_btn">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#suggest" class="rounded-button white-text brandon-bold">Suggest</a>
+                        </button>
+                    </div>
+                    <div class="faq_btn_section_mb">
+                        <img class="faq_main_img" src="images/faq/faq-img-mb.png" alt="Suggestion">
+                        <button class="suggest_btn">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#suggest" class="rounded-button white-text brandon-bold">Suggest a card</a>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-        <footer>
+    </div>
+    <section class="block-view">
+        <div class="content text-center clearfix">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="logo-footer">
-                            <a href="index.html" title=""><img src="images/uxd-logo-footer.png" alt=""></a>
+                <div class="row floating_images">
+                    <div class="col-sm-2">
+                        <div class="method_left">
+                            <img class="methodl_img1" src="images/floating_cards/methodl_img1.png" alt="floatingCard" />
+                            <img class="methodl_img2" src="images/floating_cards/methodl_img2.png" alt="floatingCard" />
+                            <img class="methodl_img3" src="images/floating_cards/methodl_img3.png" alt="floatingCard" />
+                            <img class="methodl_img4" src="images/floating_cards/methodl_img4.png" alt="floatingCard" />
+                            <img class="methodl_img5" src="images/floating_cards/methodl_img5.png" alt="floatingCard" />
+                            <img class="methodl_img6" src="images/floating_cards/methodl_img6.png" alt="floatingCard" />
+                            <img class="methodl_img7" src="images/floating_cards/methodl_img7.png" alt="floatingCard" />
+                            <img class="methodl_img8" src="images/floating_cards/methodl_img8.png" alt="floatingCard" />
                         </div>
-                        <div class="quick-links">
-                            <table>
-                                <tbody><tr>
-                                    <td><a href="faq" class="active">FAQ</a></td>
-                                    <td><a href="about">About</a></td>
-                                    <td><a href="press">Press</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" data-toggle="modal" data-target="#contact">Contact</a></td>
-                                    <td><a href="#" data-toggle="modal" data-target="#suggest">Suggest</a></td>
-                                    <td><a href="partners">Partners</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a></td>
-                                    <td><a href="#" data-toggle="modal" data-target="#terms-popup">Terms</a></td>
-                                    <td><a href="cards">Cards</a></td>
-                                </tr>
-                            </tbody></table>
-                        </div>
-
                     </div>
-                    <div class="col-sm-6">
-                        <div class="social">
-                            <a href="https://heapanalytics.com/?utm_source=badge"><img style="width:108px;height:41px" src="//heapanalytics.com/img/badge.png" alt="Heap | Mobile and Web Analytics" /></a>
-                            <a href="https://twitter.com/uxdcards"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/company/uxd-cards"><i class="fa fa-linkedin"></i></a>
-                            <a href="https://www.facebook.com/uxdcards"><i class="fa fa-facebook"></i></a>
-                            <a href="https://www.instagram.com/uxdcards"><i class="fa fa-instagram"></i></a>
+                    <div class="col-sm-8 method-center-col">
+                        <div class="method-center">
+                            <h5>Get Your UXD Method Cards Now</h5>
+                            <button class="cards_btn">
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#notify" class="rounded-button">Get Cards</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="method_right">
+                            <img class="methodr_img1" src="images/floating_cards/methodr_img1.png" alt="floatingCard" />
+                            <img class="methodr_img2" src="images/floating_cards/methodr_img2.png" alt="floatingCard" />
+                            <img class="methodr_img3" src="images/floating_cards/methodr_img3.png" alt="floatingCard" />
+                            <img class="methodr_img4" src="images/floating_cards/methodr_img4.png" alt="floatingCard" />
+                            <img class="methodr_img5" src="images/floating_cards/methodr_img5.png" alt="floatingCard" />
+                            <img class="methodr_img6" src="images/floating_cards/methodr_img6.png" alt="floatingCard" />
+                            <img class="methodr_img7" src="images/floating_cards/methodr_img7.png" alt="floatingCard" />
+                            <img class="methodr_img8" src="images/floating_cards/methodr_img8.png" alt="floatingCard" />
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="logo-footer">
+                        <a href="index.html" title="logo"></a>
+                    </div>
+                    <div class="quick-links">
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td><a href="index.html">Home</a></td>
+                                <td><a href="about.html">About</a></td>
+                                <td><a href="cards.html">Cards</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" data-toggle="modal" data-target="#contact">Contact</a></td>
+                                <td><a href="uses-bk.html" data-toggle="modal" data-target="#suggest">Uses</a></td>
+                                <td><a class="active" href="faq.html">FAQ</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" data-toggle="modal" data-target="#privacy">Privacy</a></td>
+                                <td><a href="#" data-toggle="modal" data-target="#terms-popup">Terms</a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <ul class="quick-links-ul links_responsive">
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#privacy">Privacy</a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="modal" data-target="#terms-popup">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <a href="https://twitter.com/uxdcards" title="Twitter">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/uxd-cards"  title="Linkedin">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/uxdcards"  title="Facebook">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/uxdcards"  title="Instagram">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="social_mobile">
+                        <a href="https://twitter.com/uxdcards" title="Facebook">
+                            <img src="images/fb.png" alt="Twitter">
+                        </a>
+                        <a href="https://www.linkedin.com/company/uxd-cards"  title="Linkedin">
+                            <img src="images/in.png" alt="Linkedin">
+                        </a>
+                        <a href="https://www.facebook.com/uxdcards"  title="Twitter">
+                            <img src="images/twitter.png" alt="Twitter">
+                        </a>
+                        <a href="https://www.instagram.com/uxdcards"  title="Instagram">
+                            <img src="images/insta.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
         <div class="modal" id="contact">
             <div class="modal-dialog">
                 <form action="" class="form-submit">
@@ -637,6 +644,17 @@
             </div>
         </div>
         <script src="default.js"></script>
-        <script src="custom.js"></script> 
+        <script src="custom.js"></script>
+        <script type="text/javascript">
+            window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+            heap.load("1101135621");
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-89303361-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>
