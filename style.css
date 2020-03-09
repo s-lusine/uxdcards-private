@@ -1704,8 +1704,8 @@ input[type=number]::-webkit-outer-spin-button {
     height: 61px;
 }
 .slick-next {
-    top: 50%;
-    right: -1%;
+    top: 68%;
+    right: 10%;
 }
 .slick-prev {
     top: 50%;

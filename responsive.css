@@ -460,7 +460,7 @@
 		display: none;
 	}
 
-	.slick-next, .slick-prev {
+	 .slick-prev {
 		opacity: 0;
 	}
 
