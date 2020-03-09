@@ -4131,3 +4131,96 @@ ul.collapse-menu {
     border: 1px solid #eaeaea;
     border-radius: 10px;
 }
+/* An import for use of Material icons */
+
+.btn-holder{
+    display: block;
+    margin: 0 auto;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.intro-text{
+    margin-bottom: 48px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    vertical-align: top;
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+    position: absolute;
+    right: 45%;
+    top: 44%;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:focus{
+    /*  This is just so extra styles don't get in the way,
+        our border will take care of focus!  */
+    outline: none;
+}
+
+/* Important stuff for neumorphic styling */
+.neumorphic{
+    /*  Background is the background color inside button  */
+    background: #f9624d;
+
+    /*  The shadow around the buttons which make them look
+        vacuum-formed */
+    box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+    border: 3px solid rgba(255, 255, 255, .4);
+}
+
+/* How the buttons look when pressed down */
+.neumorphic-pressed{
+    background: #f9624d;
+    -webkit-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+    -moz-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+    box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+}
+
+/* How the buttons behave when hovered over or focused on - this allows us to get rid of the default outline and indicate focus ourselves */
+.neumorphic:focus, .neumorphic:hover, .neumorphic:focus, .neumorphic:hover, .neumorphic-pressed:focus, .neumorphic-pressed:hover {
+    border: 3px solid rgba(46, 74, 112, .75);
+}
+
+/* Some stuff for Material icons, you can ignore this */
+.material-icon {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+#pause {
+    color: #143664;
+    display: none;
+}

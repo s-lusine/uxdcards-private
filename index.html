@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="_stylesheet.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="wow/animate.css">
@@ -52,14 +54,14 @@
                             <div class="cards_container cards_container1">
                                 <div class="flyout card_position card_position1">
                                     <div class="card_content">
-                                        <div class="flycard card_after"><img src="images/card_lane1/card1-back.png" alt=""></div>
-                                        <div class="flycard card_before"><img src="images/card_lane1/card1.png" alt=""></div>
+                                        <div class="flycard card_after"><img src="images/card_lane1/card1-back.png" alt="Flycard"></div>
+                                        <div class="flycard card_before"><img src="images/card_lane1/card1.png" alt="Flycard"></div>
                                     </div>
                                 </div>
                                 <div class="flyout card_position card_position2">
                                     <div class="card_content">
-                                        <div class="flycard card_after"><img src="images/card_lane1/card2-back.png" alt=""></div>
-                                        <div class="flycard card_before"><img src="images/card_lane1/card2.png" alt=""></div>
+                                        <div class="flycard card_after"><img src="images/card_lane1/card2-back.png" alt="Flycard"></div>
+                                        <div class="flycard card_before"><img src="images/card_lane1/card2.png" alt="Flycard"></div>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +105,17 @@
                 <div class="col-sm-12">
                     <a href="https://uxdcards.com?wvideo=t6k4o2a4k0">
                         <img class="video_img" src="images/video-img.png">
-                        <img class="play_btn" src="images/video-play.png">
+                        <button id="play-pause" onclick="changeStyle('play-pause')" aria-label="Play/Pause Button." class="btn neumorphic">
+                            <span class="icon">
+                              <i id="play" class="material-icon">
+                                play_arrow
+                              </i>
+
+                              <i id="pause" class="material-icon">
+                                pause
+                              </i>
+                            </span>
+                        </button>
                     </a>
                     <div class="video_responsive_txt">
                         <p class="ready_responsive">Ready?</p>
@@ -984,14 +996,16 @@
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: false
+                    dots: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: false,
                 }
             },
             {
@@ -1008,6 +1022,37 @@
             // instead of a settings object
         ]
     });
+
+
+</script>
+<script>
+    /* Toggles the style of the neumorphic button*/
+    function changeStyle(btnPressed) {
+        var btn = document.getElementById(btnPressed);
+        btn.classList.toggle("neumorphic");
+        btn.classList.toggle("neumorphic-pressed");
+
+        // Figures out which function to call from which button was pressed
+        if (btnPressed === 'play-pause') {
+            play();
+        } else if (btnPressed === 'shuffle-btn') {
+            shuffle();
+        }
+    }
+
+    // Toggles the visibility of the play/pause icon
+    function play() {
+        var playBtn = document.getElementById('play');
+        var pauseBtn = document.getElementById('pause');
+
+        if (playBtn.style.display === 'none') {
+            playBtn.style.display = 'block';
+            pauseBtn.style.display = 'none';
+        } else {
+            playBtn.style.display = 'none';
+            pauseBtn.style.display = 'block';
+        }
+    }
 
 
 </script>
