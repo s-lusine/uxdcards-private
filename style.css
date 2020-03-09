@@ -1703,9 +1703,13 @@ input[type=number]::-webkit-outer-spin-button {
     width: 61px;
     height: 61px;
 }
-.slick-next {
+.testimonials2 .slick-next {
     top: 68%;
     right: 10%;
+}
+.uses-slider .slick-next {
+    top: 50%;
+    right: -1%;
 }
 .slick-prev {
     top: 50%;
