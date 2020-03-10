@@ -11,8 +11,8 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 </head>
 <body>
-<header class="single-color uses-header">
-    <div class="container">
+<header class="uses-header">
+    <div class="container uses_container">
         <div>
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
@@ -50,12 +50,12 @@
 </header>
 
 <div class='brainstorm_section'>
-    <div class="container block-uses ">
+    <div class="container block-uses block_uses_container">
         <div class="row brainstorm_slides">
             <h3 class=" brainstorm_title text-center">Brainstorm</h3>
             <div class="uses-slider">
-                <div>
-                    <div class="col-md-12 border-right  padding-right-45">
+                <div class="col-md-6">
+                    <div class="border-right  padding-right-45">
                         <div class="block-collapse scrolltrack">
                             <ul class="list-text">
                                 <li><span>1.</span> In the midst of a busy project it's all too easy to forget the nuances that distinguish great products.</li>
@@ -66,15 +66,15 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="col-md-12 padding-left-45">
+                <div class="col-md-6">
+                    <div class=" padding-left-45">
                         <div class="block-collapse scrolltrack">
                             <img src="images/play/use_image1.png" alt="Compete">
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="col-md-12 border-right  padding-right-45">
+                <div class="col-md-6">
+                    <div class="border-right  padding-right-45">
                         <div class="block-collapse scrolltrack">
                             <ul class="list-text">
                                 <li><span>1.</span> In the midst of a busy project it's all too easy to forget the nuances that distinguish great products.</li>
@@ -85,8 +85,8 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="col-md-12 padding-left-45">
+                <div class="col-md-6">
+                    <div class="padding-left-45">
                         <div class="block-collapse scrolltrack">
                             <img src="images/play/use_image1.png" alt="Compete">
                         </div>
@@ -94,8 +94,39 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="brainstorm_divs_mb">
+                <h3 class=" brainstorm_title text-center">Brainstorm</h3>
+                <div class="block-collapse scrolltrack scrolltrack_img_sec">
+                    <img src="images/play/use_image1.png" alt="Compete">
+                </div>
+                <div class="block-collapse scrolltrack">
+                    <ul class="list-text">
+                        <li><span class="europe_txt">1</span> In the midst of a busy project it's all too easy to forget the nuances that distinguish great products.</li>
+                        <li><span class="europe_txt">2</span> Mental Notes brings together 50 insights from psychology into an easy reference and brainstorming tool.</li>
+                        <li><span class="europe_txt">3</span> Each card describes one insight into human behavior and suggests ways to apply this to the design of Web sites, Web apps, and software applications.</li>
+                        <li><span class="europe_txt">4</span> It is often possible to define the crucial parts and practices of a field fairly quick.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="brainstorm_divs_mb">
+                <h3 class=" brainstorm_title text-center">Compete</h3>
+                <div class="block-collapse scrolltrack scrolltrack_img_sec">
+                    <img src="images/play/use_image1.png" alt="Compete">
+                </div>
+                <div class="block-collapse scrolltrack">
+                    <ul class="list-text">
+                        <li><span class="europe_txt">1</span> In the midst of a busy project it's all too easy to forget the nuances that distinguish great products.</li>
+                        <li><span class="europe_txt">2</span> Mental Notes brings together 50 insights from psychology into an easy reference and brainstorming tool.</li>
+                        <li><span class="europe_txt">3</span> Each card describes one insight into human behavior and suggests ways to apply this to the design of Web sites, Web apps, and software applications.</li>
+                        <li><span class="europe_txt">4</span> It is often possible to define the crucial parts and practices of a field fairly quick.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
 
 
 <section class="block-view">
@@ -570,8 +601,7 @@
                     {
                         breakpoint: 480,
                         settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
+                            settings: "unslick"
                         }
                     }
                 ]
@@ -605,6 +635,7 @@
 
         $slider.slick();
     }
+
 </script>
 </body>
 </html>

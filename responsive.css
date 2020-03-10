@@ -143,6 +143,13 @@
 		display: block;
 		margin: 25px 0 0;
 	}
+	.btn {
+		width: 65px;
+		height: 65px;
+		font-size: 35px;
+		right: 37%;
+		top: 15%;
+	}
 
 	/*partners section*/
 	.partners_row {
@@ -407,11 +414,11 @@
 		padding: 7px 0 5px;
 	}
 	footer .logo-footer a {
-		width: 44px;
-		height: 42px;
+		width: 41px;
+		height: 29px;
 		object-fit: contain;
 		display: block;
-		background: url(images/uxd-logo.png) center no-repeat;
+		background: url(images/header-logo.png) center no-repeat;
 		border: solid 3px #343434;
 		background-size: contain;
 	}
@@ -438,6 +445,10 @@
 	 .uses-header {
 		height: 333px;
 	}
+
+	 header .uses_container {
+		 background: none;
+	 }
 	.uses-header-title {
 		height: 31px;
 		font-size: 24px;
@@ -450,11 +461,36 @@
 		font-size: 14px;
 		line-height: 19px;
 		margin-bottom: 0;
+		font-family: "BrandonText Regular";
+	}
+
+	.brainstorm_section {
+		border-top: 5px solid #ffffff;
+		border-bottom: 5px solid #ffffff;
 	}
 
 	.brainstorm_slides {
-		padding: 25px 0;
-		margin: 40px 0;
+		display: none;
+	}
+	.brainstorm_divs_mb {
+		display: block;
+		box-shadow: 6px 6px 16px #d1cdc7, -6px -6px 16px #ffffff;
+		border: 1px solid #ffffff;
+		background-color: #f7f7f7;
+		padding: 36px 0 65px 31px;
+		margin: 9px 0 14px;
+	}
+	.brainstorm_divs_mb img {
+		width: 195px;
+		height: 130px;
+	}
+	.block_uses_container {
+		max-width: 292px;
+		margin: 0 auto;
+	}
+	.scrolltrack_img_sec {
+		margin-bottom: 22px;
+		text-align: center;
 	}
 	.slider__counter {
 		display: none;
@@ -465,12 +501,12 @@
 	}
 
 	.list-text {
-		width: 212px;
-		height: 358px;
+		width: 235px;
 		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 20px;
+		padding-inline-start: 0;
 	}
 	.list-text li span {
 		height: 25px;
@@ -479,6 +515,10 @@
 		font-size: 20px;
 		font-weight: 700;
 		line-height: 25px;
+		padding-right: 14px;
+	}
+	.list-text li {
+		display: flex;
 	}
 	.padding-right-45 {
 		padding: 0;
@@ -497,6 +537,77 @@
 		color: #4a4a4a;
 		font-size: 24px;
 	}
+
+	/*about page mb*/
+	.about_body {
+		border-top: 5px solid #ffffff;
+		border-bottom: 5px solid #ffffff;
+		padding: 60px 0;
+	}
+	header.about_pg_bg {
+		background: linear-gradient(to bottom, rgba(35, 35, 35, 1) 20%, rgba(145, 145, 145, 1) 120%);
+		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#919191', GradientType=0);
+	}
+	.container.about_container {
+		background: none;
+	}
+	.about_title {
+		height: 62px;
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1.29;
+	}
+	.about_desc  {
+		font-family: "BrandonText Regular";
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 1.36;
+	}
+	.about_body h6 {
+		font-family: "BrandonText Bold";
+		font-size: 24px;
+		text-align: center;
+	}
+	.about_body p {
+		width: 240px;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: normal;
+		line-height: 24px;
+	}
+	.block-content-about {
+		max-width: 246px;
+	}
+	.about_body_cols img {
+		margin-left: 0;
+		width: 246px;
+	}
+	.about_body_cols {
+		margin-bottom: 70px;
+	}
+	.block-content-about h3 {
+		height: 31px;
+		color: #262626;
+		font-size: 24px;
+		font-family: 'Europe';
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: center;
+	}
+	.text-about {
+		font-size: 14px;
+	}
+	.deck-delivers li {
+		height: 80px;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.23px;
+		line-height: 1.43;
+	}
+
 
 	/*cards page mb*/
 	.cards_header {
@@ -524,7 +635,7 @@
 
 	/*checkout page mb*/
 	.select_section .payment-container, .address_section .payment-container, .payment_section .payment-container {
-		max-width: 311px;
+		max-width: 246px;
 	}
 	.select_section .container, .address_section .container, .payment_section .container {
 		padding-left: 15px;
@@ -585,7 +696,7 @@
 		width: 25px;
 		height: 25px;
 		top: 11px;
-		left: 13px;
+		left: -10px;
 	}
 	.m_d {
 		display: none;

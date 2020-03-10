@@ -5,8 +5,10 @@ html,body
     padding: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    border: solid 10px #ffffff;
     font-family: 'BrandonText Regular' !important;
+}
+body {
+    border: solid 10px #ffffff;
 }
 
 a,
@@ -1653,6 +1655,7 @@ input[type=number]::-webkit-outer-spin-button {
     letter-spacing: 0.3px;
     line-height: 25px;
     list-style-image: url("images/about-page/about-icon.png");
+    margin-bottom: 14px;
 }
 .about_each_txt {
     font-weight: 700;
@@ -1695,7 +1698,10 @@ input[type=number]::-webkit-outer-spin-button {
     border: 1px solid #ffffff;
     background-color: #f7f7f7;
     padding: 56px 0 90px 51px;
-    margin: 50px 0px 60px;
+    margin: 50px 0 60px;
+}
+.brainstorm_divs_mb {
+    display: none;
 }
 
 .slick-next, .slick-prev {
@@ -3386,8 +3392,8 @@ i.fa {
 }
 
 .logo {
-    width: 160px;
-    height: 100px;
+    width: 147px;
+    height: 101px;
     display: block;
     background: url(images/header-logo.png) center no-repeat;
     background-size: contain;
@@ -4132,6 +4138,8 @@ ul.collapse-menu {
     border-radius: 10px;
 }
 /* An import for use of Material icons */
+
+
 
 .btn-holder{
     display: block;
