@@ -1139,7 +1139,30 @@
 		margin-left: 15px;
 	}
 
+	 /*Order Summary */
+	body#order_body {
+		border: none;
+	}
+	header.order_header {
+		border: 5px solid #fff;
+	}
+	footer.order_footer {
+		border: 5px solid #fff;
+	}
+	.nask {
+		border: 5px solid #fff;
+	}
+
 	/*confirmation page mb*/
+	header.confirmation_header {
+		border: 5px solid #fff;
+	}
+	footer.confirmation_footer {
+		border-right: 5px solid #fff;
+		border-left: 5px solid #fff;
+		border-bottom: 5px solid #fff;
+		border-top: none;
+	}
 	.confirm_main_txt {
 		display: none;
 	}
@@ -1324,8 +1347,7 @@
 	}
 	.share_section_bg_mb {
 		box-shadow: inset 6px 6px 16px #d1cdc7, inset -6px -6px 16px #ffffff;
-		border-top: 5px solid #ffffff;
-		border-bottom: 5px solid #ffffff;
+		border: 5px solid #ffffff;
 		background-color: #f3f2f1;
 		padding-top: 50px;
 		padding-bottom: 58px;

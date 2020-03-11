@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>UXD Cards - 75 Method Cards</title>
 	<meta name="description" content=“75 method and technique cards for UX designers. A fantastic tool for workshops,
@@ -13,43 +12,10 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.png" />
 	<link rel="stylesheet" href="responsive.css" media="(max-width:900px)">
-	<script type="text/javascript">
-		window.heap = window.heap || [], heap.load = function (e, t) {
-			window.heap.appid = e, window.heap.config = t = t || {};
-			var r = t.forceSSL || "https:" === document.location.protocol,
-				a = document.createElement("script");
-			a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") +
-				"//cdn.heapanalytics.com/js/heap-" + e + ".js";
-			var n = document.getElementsByTagName("script")[0];
-			n.parentNode.insertBefore(a, n);
-			for (var o = function (e) {
-					return function () {
-						heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
-					}
-				}, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify",
-					"removeEventProperty", "setEventProperties", "track", "unsetEventProperty"
-				], c = 0; c < p.length; c++) heap[p[c]] = o(p[c])
-		};
-		heap.load("1101135621");
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-		ga('create', 'UA-89303361-1', 'auto');
-		ga('send', 'pageview');
-	</script>
 </head>
 
-<body>
-	<header class="home">
+<body id="order_body">
+	<header class="home single-color order_header">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -74,12 +40,10 @@
 					</nav>
 				</div>
 				<div class="col-sm-12">
-					<div class="padded-container">
-						<div class="text-center header-title">
-							<h3 class="evropaBold fs-38 white-text ">Order Summary</h3>
-							<p class=" LastCchanc white-text">Last chance to add more to your order before we unrack,
+					<div class="text-center order_header_txt">
+						<h3 class="order_header_title europe_txt white-text ">Order Summary</h3>
+						<p class="order_header_desc bariol-regular white-text">Last chance to add more to your order before we unrack,
 								pack <br class="brnone">and hastily get your beautiful card decks to you front door!</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -88,25 +52,25 @@
 	<section class="sect ">
 		<div class="container ">
 			<div>
-				<h2 class="DeliveringTo">Delivering to:</h2>
+				<h2 class="brandon-bold DeliveringTo">Delivering to:</h2>
 				<div class="row">
 					<div class="col-md-4">
 						<div class="imagesIcon">
 							<div style="padding-top: 9px; margin-right: 25px; " class="DeliveringToimg1">
-								<img src="images/icon/Icon_Color.png" alt="">
+								<img src="images/ordersummary/person_outline.png" alt="">
 							</div>
 							<div class="a">
-								<h5 class="textName">Name</h5>
-								<p class="textP">JIM STOUTJESDIJK</p>
+								<h5 class="brandon-bold textName">Name</h5>
+								<p class="med_txt textP">JIM STOUTJESDIJK</p>
 							</div>
 						</div>
 						<div class="imagesIcon">
 							<div style="padding-top: 9px; margin-right: 25px;" class="DeliveringToimg2">
-								<img src="images/icon/Icon_Color2.png" alt="">
+								<img src="images/ordersummary/home.png" alt="">
 							</div>
 							<div class="a">
-								<h5 class="textName">Home</h5>
-								<p class="textP">4/53 Toorak Road, Toorak <br>
+								<h5 class="brandon-bold textName">Home</h5>
+								<p class="med_txt textP">4/53 Toorak Road, Toorak <br>
 									Melbourne, Victoria, 3020 <br>
 									Australia</p>
 							</div>
@@ -115,27 +79,27 @@
 					<div class="col-md-4">
 						<div class="imagesIconA" style="display: flex;">
 							<div style="padding-top: 9px; margin-right: 25px; " class="DeliveringToimg3">
-								<img src="images/icon/_Icon_Color.png" alt="">
+								<img src="images/ordersummary/alternate_email.png" alt="">
 							</div>
 							<div>
-								<h5 class="textName">Email</h5>
-								<p class="textP">jim.design@gmail.com</p>
+								<h5 class="brandon-bold textName">Email</h5>
+								<p class="med_txt textP">jim.design@gmail.com</p>
 							</div>
 						</div>
 						<div style="display: flex;">
 							<div style="padding-top: 9px; margin-right: 25px;" class="DeliveringToimg4">
-								<img src="images/icon/Icon_Color 1.png" alt="">
+								<img src="images/ordersummary/smartphone.png" alt="">
 							</div>
 							<div>
-								<h5 class="textName">Mobile</h5>
-								<p class="textP">0404 301 012</p>
+								<h5 class="brandon-bold textName">Mobile</h5>
+								<p class="med_txt textP">0404 301 012</p>
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<div>
-					<button class="Rectangle_17">UPDATE</button>
+					<button class="brandon-bold Rectangle_17">UPDATE</button>
 				</div>
 			</div>
 		</div>
@@ -143,7 +107,7 @@
 	<section class="nask">
 		<div class="container">
 			<div class="naskMargin">
-				<h2 class="DeliveryOptions">Delivery options:</h2>
+				<h2 class="brandon-bold DeliveryOptions">Delivery options:</h2>
 				<div class="row">
 					<form action="">
 						<div class="col-md-5">
@@ -156,10 +120,10 @@
 										</label>
 									</div>
 									<div class="a">
-										<h5 class="ThursDay">Thursday, 10 May</h5>
-										<p class="ThursDayP">UPS - Standard delivery
+										<h5 class="brandon-bold ThursDay">Thursday, 10 May</h5>
+										<p class="brandontext-regular ThursDayP">UPS - Standard delivery
 											<br> 3 -5 days</p>
-										<h5 class="textName freeMargin">
+										<h5 class="brandon-bold textName freeMargin">
 											FREE
 										</h5>
 									</div>
@@ -177,17 +141,17 @@
 									</div>
 									<div class="a">
 										<h5 class="ThursDay">Thursday, 4 May</h5>
-										<p class="ThursDayP">DHL - Express delivery <br>
+										<p class="brandontext-regular ThursDayP">DHL - Express delivery <br>
 											1-3 days</p>
-										<h5 class="textName freeMargin" style=" color: #25c44e;">
+										<h5 class="brandon-bold textName freeMargin" style=" color: #25c44e;">
 											FREE
 										</h5>
 									</div>
 								</div>
 							</div>
 						</div>
+					</form>
 				</div>
-				</form>
 			</div>
 		</div>
 	</section>
@@ -195,49 +159,46 @@
 	<section style="padding-top: 40px;">
 		<div class="container">
 			<div>
-				<h2 class="OrderSumm">Order Summary</h2>
+				<h2 class="brandon-bold OrderSumm">Order Summary</h2>
 				<div class="row flex-container">
-
 					<div class="col-md-6 ">
-
 						<div class="marginLeft1">
-							<h4 class="UXDCards">UXD Cards</h4>
-							<p class="items "><span class="items3">3</span> item(s) in your cart</p><a
+							<h4 class="brandon-bold UXDCards">UXD Cards</h4>
+							<p class="brandontext-regular items "><span class="brandon-bold items3">3</span> item(s) in your cart</p><a
 								class="brandontextRegular" style="text-decoration: underline;">EDIT</a>
 						</div>
 						<div class="marginLef">
-
 							<hr align="left">
 							<div>
-								<p class="Shipping "> Shipping </p>
-								<p class="ShippingFree ">FREE</p>
+								<p class="brandontext-regular Shipping "> Shipping </p>
+								<p class="brandontext-regular ShippingFree ">FREE</p>
 							</div>
 							<div>
-								<p class="TaxP "> Tax </p>
-								<p class="Tax ">$3.45</p>
+								<p class="brandontext-regular TaxP "> Tax </p>
+								<p class="brandontext-regular Tax ">$3.45</p>
 							</div>
 							<div>
-								<p class="Subtotal "> Subtotal </p>
-								<p class="Subtotal4 ">$475.00</p>
+								<p class="brandontext-regular Subtotal "> Subtotal </p>
+								<p class="brandontext-regular Subtotal4 ">$475.00</p>
 							</div>
 							<div>
-								<p class="Discount ">Discount code </p>
-								<p class="DiscountADD">ADD</p>
+								<p class="brandontext-regular Discount ">Discount code </p>
+								<p class="brandontext-regular DiscountADD">ADD</p>
 								<hr align="left">
 							</div>
 							<div>
-								<h4 class="Total ">Total </h4>
-								<h4 class="Total4 ">$475.00</h4>
+								<h4 class="brandon-bold Total ">Total </h4>
+								<h4 class="brandon-bold Total4 ">$475.00</h4>
 							</div>
 
 						</div>
 						<div>
-							<button class="PLACE_ORDER">PLACE ORDER</button>
+							<button class="brandon-bold PLACE_ORDER">Place Order</button>
 						</div>
 					</div>
 					<div class="col-md-6 ">
 						<div>
-							<img class="uxdBox" src="images/uxd_box.png" alt="">
+							<img class="uxdBox" src="images/ordersummary/order-bg.png" alt="">
 						</div>
 					</div>
 				</div>
@@ -247,7 +208,7 @@
 	<section>
 		<div class="inlineGrad"></div>
 	</section>
-	<footer>
+	<footer class="order_footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -848,7 +809,38 @@
 	<link rel="stylesheet" type="text/css" href="_stylesheet.css">
 	<script src="default.js"></script>
 	<script src="custom.js"></script>
+	<script type="text/javascript">
+		window.heap = window.heap || [], heap.load = function (e, t) {
+			window.heap.appid = e, window.heap.config = t = t || {};
+			var r = t.forceSSL || "https:" === document.location.protocol,
+					a = document.createElement("script");
+			a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") +
+					"//cdn.heapanalytics.com/js/heap-" + e + ".js";
+			var n = document.getElementsByTagName("script")[0];
+			n.parentNode.insertBefore(a, n);
+			for (var o = function (e) {
+				return function () {
+					heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+				}
+			}, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify",
+				"removeEventProperty", "setEventProperties", "track", "unsetEventProperty"
+			], c = 0; c < p.length; c++) heap[p[c]] = o(p[c])
+		};
+		heap.load("1101135621");
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+		ga('create', 'UA-89303361-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
-
 </html>

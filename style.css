@@ -226,7 +226,39 @@ header .container {
     background-size: cover;
     background-position: 0 105px;
 }
+
+
 /* Order Summary */
+body#order_body {
+    border: none;
+}
+header.order_header {
+    border: 10px solid #fff;
+}
+footer.order_footer {
+    border: 10px solid #fff;
+}
+.order_header_txt {
+    margin-bottom: 54px;
+}
+.order_header_title {
+    height: 65px;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.order_header_desc {
+    height: 50px;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+}
 .imagesIconA {
     display: flex;
     margin-bottom: 60px;
@@ -239,12 +271,11 @@ header .container {
 }
 
 .sect {
-    margin: 40px 130px 65px
+    margin: 40px 130px 65px;
 }
 
 /* Style for "Last chanc" */
 .LastChanc {
-    font-family: "Brandon Text - Regular";
     font-size: 19px;
     font-weight: 400;
     line-height: 25px;
@@ -252,7 +283,6 @@ header .container {
 
 /* Style for "EDIT" */
 .brandontextRegular {
-    font-family: "Brandon Text - Regular";
     font-size: 19px;
     font-weight: 400;
     line-height: 25px;
@@ -267,7 +297,6 @@ header .container {
 }
 
 .textName {
-    font-family: "Brandon Text - Bold";
     font-weight: 700;
     font-size: 18px;
     color: #000000;
@@ -275,9 +304,7 @@ header .container {
 }
 
 .textP {
-
     color: #000000;
-    font-family: "Brandon Text - Medium";
     font-weight: 500;
     font-size: 18px;
 }
@@ -290,7 +317,6 @@ header .container {
     border: 1px solid #ffffff;
     background-color: #ffffff;
     color: #000000;
-    font-family: "Brandon Text - Bold";
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -300,7 +326,6 @@ header .container {
 /* Style for "Delivery o" */
 .DeliveryOptions {
     color: #262626;
-    font-family: "Brandon Text - Bold";
     font-size: 34px;
     font-weight: 700;
     margin: 60px 0 63px;
@@ -309,7 +334,6 @@ header .container {
 /* Style for "Delivering" */
 .DeliveringTo {
     color: #262626;
-    font-family: "Brandon Text - Bold";
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -329,7 +353,6 @@ header .container {
 .UXDCards {
     margin-bottom: 38px;
     color: #000000;
-    font-family: "Brandon Text - Bold";
     font-size: 24px;
     font-weight: 700;
 }
@@ -338,7 +361,6 @@ header .container {
 
 .items {
     color: #000000;
-    font-family: "Brandon Text - Regular";
     font-size: 18px;
     font-weight: 400;
     display: inline-block;
@@ -347,7 +369,6 @@ header .container {
 /* Text style for "3" */
 .items3 {
     font-size: 18px;
-    font-family: "Brandon Text - Bold";
     font-weight: 700;
 }
 
@@ -366,7 +387,6 @@ header .container {
 .ShippingFree {
     display: inline-block;
     color: #000000;
-    font-family: "Brandon Text - Medium";
     font-size: 18px;
     font-weight: 500;
     display: inline-block;
@@ -377,7 +397,6 @@ header .container {
 .Tax {
     margin-left: 100px;
     color: #000000;
-    font-family: "Brandon Text - Medium";
     font-size: 18px;
     font-weight: 500;
     display: inline-block;
@@ -388,7 +407,6 @@ header .container {
     margin-right: 145px;
     color: #000000;
     font-size: 18px;
-    font-family: "Brandon Text - Regular";
     font-weight: 400;
     display: inline-block;
 }
@@ -397,7 +415,6 @@ header .container {
 .Subtotal {
     color: #000000;
     font-size: 18px;
-    font-family: "Brandon Text - Regular";
     font-weight: 400;
     margin-right: 100px;
     display: inline-block;
@@ -406,7 +423,6 @@ header .container {
 /* Text style for "Subtotal" */
 .Subtotal4 {
     color: #000000;
-    font-family: "Brandon Text - Medium";
     font-size: 18px;
     font-weight: 500;
     margin-left: 90px;
@@ -416,7 +432,6 @@ header .container {
 .Shipping {
     color: #000000;
     font-size: 18px;
-    font-family: "Brandon Text - Regular";
     font-weight: 400;
     margin-right: 100px;
     display: inline-block;
@@ -445,7 +460,6 @@ hr {
 /* Style for "Discount c" */
 .Discount {
     color: #000000;
-    font-family: "Brandon Text - Regular";
     font-size: 18px;
     font-weight: 400;
     display: inline-block;
@@ -454,7 +468,6 @@ hr {
 
 .DiscountADD {
     color: #000000;
-    font-family: "Brandon Text - Regular";
     font-size: 18px;
     font-weight: 400;
     display: inline-block;
@@ -465,8 +478,6 @@ hr {
 /* Style for "Total" */
 .Total {
     color: #000000;
-    font-family: "Brandon Text - Bold";
-    font-size: 15px;
     font-weight: 700;
     font-size: 25px;
     display: inline-block;
@@ -478,7 +489,6 @@ hr {
     margin-left: 20px;
     display: inline-block;
     color: #000000;
-    font-family: "Brandon Text - Bold";
     font-weight: 700;
     font-size: 25px;
 }
@@ -496,24 +506,16 @@ hr {
 
 }
 
-.evropaBold {
-    font-family: "Europa - Bold";
-    font-size: 50px;
-    font-weight: 700;
-}
-
 /* Style for "Thursday," */
 .ThursDay {
     font-size: 18px;
     color: #000000;
-    font-family: "Brandon Text - Bold";
     font-weight: 700;
     margin-bottom: 0;
 }
 
 /* Text style for "Thursday," */
 .ThursDayP {
-    font-family: "Brandon Text - Regular";
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
@@ -522,7 +524,6 @@ hr {
 /* Style for "Order Summ" */
 .OrderSumm {
     color: #262626;
-    font-family: "Brandon Text - Bold";
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 22px;
@@ -537,7 +538,6 @@ hr {
     background-color: #f9624d;
     /* Style for "PLACE ORDE" */
     color: #ffffff;
-    font-family: "Brandon Text - Bold";
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -551,7 +551,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 23px;
     height: 165px;
-    font-family: Europe;
+    font-family: 'Europe';
     font-size: 50px;
     font-stretch: normal;
     font-style: normal;
@@ -1136,6 +1136,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 /*order confirmation page*/
+body#confirmation_body {
+    border: none;
+}
+header.confirmation_header {
+     border: 10px solid #fff;
+}
+footer.confirmation_footer {
+    border: 10px solid #fff;
+}
 .order_details {
     padding-top: 61px;
 }
@@ -1150,7 +1159,6 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .line img {
     width: 100%;
-    border-bottom: 10px solid #fff;
 }
 
 .header_conf_title {
