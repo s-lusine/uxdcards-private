@@ -144,11 +144,15 @@
 		margin: 25px 0 0;
 	}
 	.btn {
-		width: 65px;
-		height: 65px;
-		font-size: 35px;
-		right: 37%;
-		top: 15%;
+		width: 45px;
+		height: 33px;
+		font-size: 25px;
+		right: 40%;
+		top: 22%;
+		padding: 0;
+	}
+	.material-icon {
+		font-size: 27px;
 	}
 
 	/*partners section*/
@@ -1145,13 +1149,326 @@
 	}
 	header.order_header {
 		border: 5px solid #fff;
+		background: rgba(35, 35, 35, 1);
+		background: linear-gradient(to bottom, rgba(35, 35, 35, 1) 20%, rgba(145, 145, 145, 1) 120%);
+		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#919191', GradientType=0);
 	}
 	footer.order_footer {
 		border: 5px solid #fff;
 	}
+	.container.order_container {
+		background: none;
+	}
 	.nask {
 		border: 5px solid #fff;
 	}
+	.order_header_title {
+		font-size: 24px;
+		line-height: 1.29;
+		margin-bottom: 54px;
+	}
+	.order_header_desc {
+		font-size: 14px;
+		line-height: 1.36;
+	}
+	.order_header_txt {
+		margin-bottom: 90px;
+	}
+	.DeliveringTo {
+		color: #000000;
+		font-size: 24px;
+	}
+	.textName {
+		font-size: 14px;
+		color: #000000;
+	}
+	.textP {
+		font-size: 14px;
+	}
+	.Rectangle_17 {
+		width: 240px;
+		height: 60px;
+		box-shadow: -5px -5px 14px 0 #ffffff, 5px 5px 14px 0 #d1cdc7;
+	}
+	.DeliveryOptions {
+		color: #000000;
+		font-size: 24px;
+	}
+	.naskMargin .StyleRectangle, .naskMargin .StyleRectangle1 {
+		width: 240px;
+		height: 119px;
+		box-shadow: -4px -4px 14px 0 #ffffff, 4px 4px 14px 0 #d1cdc7;
+	}
+	.ThursDay {
+		font-size: 14px;
+	}
+	.ThursDayP {
+		font-size: 14px;
+		color: #000000;
+	}
+	.OrderSumm {
+		color: #000000;
+		font-size: 24px;
+	}
+
+	/* Style for "Last chanc" */
+	.LastCchanc {
+		margin: 44px 38px 10px;
+		color: #ffffff;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 19px;
+	}
+
+	.sect {
+		margin: 20px 40px 0;
+	}
+
+	.imagesIcon {
+		margin: 0;
+		padding: 0;
+	}
+
+	.imagesIconA {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Style for "Rectangle" */
+	.Rectangle_17 {
+
+		width: 240px;
+		height: 60px;
+		box-shadow: -5px -5px 14px #ffffff, 5px 5px 14px #d1cdc7;
+		border: 1px solid #ffffff;
+		background-color: #ffffff;
+		/* Style for "CHANGE ADD" */
+		color: #000000;
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 40px;
+	}
+
+
+	.nask {
+		padding-top: 10px;
+	}
+
+	.StyleRectangle {
+		/* Style for "Rectangle" */
+		width: 240px;
+		height: 119px;
+		box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #d1cdc7;
+		border: 2px solid #25c44e;
+		background-color: #ffffff;
+		padding-top: 10px;
+		margin-left: 15px;
+	}
+
+	.StyleRectangle1 {
+		/* Style for "Rectangle" */
+		margin: 14px 15px 60px 15px;
+		width: 240px;
+		height: 119px;
+		box-shadow: -4px -4px 14px #ffffff, 4px 4px 14px #d1cdc7;
+		border: 1px solid #ffffff;
+		background-color: #ffffff;
+	}
+
+	.df {
+		margin: 0;
+		margin-left: 19px;
+	}
+
+	/* Style for "🔹 Icon Co" */
+	.DeliveringToimg1 img {
+		width: 14px;
+		height: 14px;
+	}
+
+	.DeliveringToimg2 img {
+		width: 17px;
+		height: 14px;
+	}
+
+	.DeliveringToimg3 img {
+		width: 18px;
+		height: 18px;
+	}
+
+	.DeliveringToimg4 img {
+		height: 20px;
+	}
+
+	.sect {
+		margin: 20px 30px 0;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap-reverse;
+		/* background-color: DodgerBlue; */
+	}
+
+	.marginLeft1 {
+		padding-left: 28px;
+	}
+
+
+
+	.UXDCards {
+		/* Style for "UXD Cards" */
+		margin: 32px 0 13px;
+		color: #000000;
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	.uxdBox {
+		/* Style for "uxd_box" */
+		width: 282px;
+		height: 392px;
+		margin-top: 0px;
+	}
+
+	/* Style for "3 item(s)" */
+	.items3 {
+		margin-bottom: 0;
+		color: #000000;
+		font-size: 14px;
+	}
+
+	.items {
+		margin-bottom: 0;
+		color: #000000;
+		font-size: 14px;
+	}
+
+
+	/* Style for "Shipping" */
+	.Shipping {
+		margin: 0;
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 500;
+		margin-bottom: -5px;
+	}
+
+	/* Text style for "Shipping" */
+	.ShippingFree {
+		font-size: 14px;
+		font-weight: 500;
+		margin: 0;
+		margin-left: 28px;
+	}
+
+	/* Style for "Tax" */
+	.Tax {
+		font-size: 14px;
+		display: block;
+		color: #000000;
+		font-weight: 400;
+		margin: -5px 28px -10px
+	}
+
+	/* Text style for "Tax" */
+	.TaxP {
+		font-size: 14px;
+		font-weight: 500;
+		margin: 0;
+		display: block;
+		margin-top: -5px;
+		margin-left: 28px;
+	}
+
+	/* Style for "Subtotal" */
+	.Subtotal {
+		font-weight: 400;
+		font-size: 14px;
+		margin: 0;
+		margin-top: -5px;
+		margin-left: 28px;
+	}
+
+	/* Text style for "Subtotal" */
+	.Subtotal4 {
+		display: block;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 500;
+		margin: -5px 28px -10px;
+	}
+
+	.Total4 {
+		/* Style for "Total" */
+		color: #000000;
+		font-size: 25px;
+		font-weight: 700;
+		margin-top: -50px;
+	}
+
+	.Total {
+		margin-right: 80px;
+		margin-left: 28px;
+		margin-top: -50px;
+		/* Text style for "" */
+		font-size: 15px;
+		color: #000000;
+		font-weight: 700;
+	}
+
+	hr {
+		width: 240px;
+		margin-left: 20px;
+	}
+
+	.Discount {
+		margin: 0 80px -10px 28px;
+		color: #000000;
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	.DiscountADD {
+		margin: 0;
+		font-size: 14px;
+		font-weight: 400;
+		margin-bottom: -10px;
+	}
+
+	.freeMargin {
+		margin-top: 10px;
+	}
+
+	.inlineGrad {
+		display: none;
+	}
+
+	.checkmark {
+		left: 0;
+	}
+
+	hr {
+		width: 240px;
+	}
+
+	.PLACE_ORDER {
+		/* Style for "Rectangle" */
+		margin: 0;
+		padding: 0;
+		width: 292px;
+		height: 63px;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+
+	.brnone {
+		display: none;
+	}
+
+
 
 	/*confirmation page mb*/
 	header.confirmation_header {
