@@ -278,8 +278,10 @@
                 </div>
             </div>
             <div class="col-md-8 payment_system">
+                <div id="dropin-container"></div>
+                <button id="submit-button">Request payment method</button>
                 <h6 class="pay_method_label brandon-bold">Select payment method</h6>
-                <div class="payment_div paypal_div med_txt paypalimg">
+                <!--<div class="payment_div paypal_div med_txt paypalimg">
                     <input class="paypal_checkbox" type="checkbox">
                     <span class="pay_checkmark"></span>
                     PayPal
@@ -314,7 +316,7 @@
                     <input type="checkbox">
                     <span class="pay_checkmark"></span>
                     Apple Pay
-                </div>
+                </div>-->
             </div>
             <div class="col-md-3 included">
                 <h6 class="med_txt">What’s included? </h6>
@@ -446,6 +448,32 @@
 <script src="default.js"></script>
 <script src="custom.js"></script>
 <script src="wow/wow.min.js"></script>
+<script src="https://js.braintreegateway.com/web/dropin/1.22.1/js/dropin.min.js"></script>
+<script>
+    var button = document.querySelector('#submit-button');
+    braintree.dropin.create({
+        authorization: 'production_d5pspv5g_6v2n4c76fwcjnn6y',
+        container: '#dropin-container',
+        paypal: {
+            flow: 'vault'
+        }
+    }, function (createErr, instance) {
+        if (createErr) {
+            console.error(createErr);
+            return;
+        }
+
+        button.addEventListener('click', function () {
+            instance.requestPaymentMethod(function (requestPaymentMethodErr, payload) {
+                if (requestPaymentMethodErr) {
+                    console.error(requestPaymentMethodErr);
+                    return;
+                }
+
+            });
+        });
+    });
+</script>
 <script>
     new WOW().init();
 </script>

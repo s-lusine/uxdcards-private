@@ -1194,11 +1194,7 @@
 		color: #000000;
 		font-size: 24px;
 	}
-	.naskMargin .StyleRectangle, .naskMargin .StyleRectangle1 {
-		width: 240px;
-		height: 119px;
-		box-shadow: -4px -4px 14px 0 #ffffff, 4px 4px 14px 0 #d1cdc7;
-	}
+
 	.ThursDay {
 		font-size: 14px;
 	}
@@ -1255,7 +1251,7 @@
 		padding-top: 10px;
 	}
 
-	.StyleRectangle {
+	.borderRectangle {
 		/* Style for "Rectangle" */
 		width: 240px;
 		height: 119px;
@@ -1266,7 +1262,7 @@
 		margin-left: 15px;
 	}
 
-	.StyleRectangle1 {
+	.borderRectangle {
 		/* Style for "Rectangle" */
 		margin: 14px 15px 60px 15px;
 		width: 240px;
@@ -1308,15 +1304,17 @@
 	.flex-container {
 		display: flex;
 		flex-wrap: wrap-reverse;
-		/* background-color: DodgerBlue; */
+	}
+	.changeadd_btn {
+		display: block;
+	}
+	.update_btn {
+		display: none;
 	}
 
-	.marginLeft1 {
-		padding-left: 28px;
+	.brandontextRegular {
+		font-size: 14px;
 	}
-
-
-
 	.UXDCards {
 		/* Style for "UXD Cards" */
 		margin: 32px 0 13px;

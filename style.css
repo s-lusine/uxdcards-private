@@ -302,6 +302,7 @@ footer.order_footer {
     border-radius: 100%
 }
 
+
 /* On mouse-over, add a grey background color */
 
 /* When the checkbox is checked, add a blue background */
@@ -322,12 +323,23 @@ footer.order_footer {
     display: block;
 }
 
-.styleRectangles.checked {
-    border: 2px solid #25c44e;
-    background-color: #ffffff;
-    color: #000000;
-    font-family: 'BrandonText Medium';
+.borderRectangle.checked {
+     border: 2px solid #25c44e;
+     background-color: #ffffff;
+     color: #000000;
+     font-family: 'BrandonText Medium';
+ }
+.borderRectangle.checked .checkmark:after {
+    display: block;
 }
+.borderRectangle.checked .checkmark {
+    background-color: #4ec06d;
+    border: 2px solid #25c44e;
+}
+.changeadd_btn {
+    display: none;
+}
+
 /* Style the checkmark/indicator */
 .cont .checkmark:after {
     left: 9px;
@@ -444,42 +456,47 @@ footer.order_footer {
 }
 
 /* Style for "Rectangle" */
-.naskMargin .StyleRectangle {
-    padding-top: 19px;
-    width: 400px;
-    height: 169px;
-    box-shadow: 6px 6px 16px #d1cdc7, -6px -6px 16px #ffffff;
-    border: 1px solid #9b9b9b;
-    background-color: #ffffff;
-    display: inline-block;
-}
 
 /* Style for "Shipping" */
+.marginLef, .marginLeft1  {
+    max-width: 317px;
+
+}
+.marginLef div, .marginLeft1 div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+}
+.marginLeft1 {
+    border-bottom: solid 1px #e0e2e5;
+    padding-bottom: 22px;
+}
+.marginLef {
+    margin-top: 26px;
+}
+
+.border_bottom {
+    border-bottom: solid 1px #e0e2e5;
+    padding-bottom: 27px;
+}
 .ShippingFree {
-    display: inline-block;
     color: #000000;
     font-size: 18px;
     font-weight: 500;
-    display: inline-block;
-    margin-left: 108px;
 }
 
 /* Style for "Tax" */
 .Tax {
-    margin-left: 100px;
     color: #000000;
     font-size: 18px;
     font-weight: 500;
-    display: inline-block;
 }
 
 /* Text style for "Tax" */
 .TaxP {
-    margin-right: 145px;
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    display: inline-block;
 }
 
 /* Style for "Subtotal" */
@@ -487,8 +504,6 @@ footer.order_footer {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    margin-right: 100px;
-    display: inline-block;
 }
 
 /* Text style for "Subtotal" */
@@ -496,19 +511,15 @@ footer.order_footer {
     color: #000000;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 90px;
-    display: inline-block;
 }
 
 .Shipping {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    margin-right: 100px;
-    display: inline-block;
 }
 
-.naskMargin .StyleRectangle1 {
+.borderRectangle  {
     padding-top: 10px;
     margin-bottom: 120px;
     width: 400px;
@@ -516,6 +527,7 @@ footer.order_footer {
     border: 1px solid #9b9b9b;
     background-color: #ffffff;
 }
+
 /* Style for "Rectangle" */
 .inlineGrad {
     margin-top: 176px;
@@ -533,16 +545,12 @@ hr {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    display: inline-block;
-    margin-right: 100px;
 }
 
 .DiscountADD {
     color: #000000;
     font-size: 18px;
     font-weight: 400;
-    display: inline-block;
-    margin-left: 20px;
     text-decoration: underline;
 }
 

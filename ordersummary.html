@@ -97,9 +97,11 @@
 						</div>
 					</div>
 				</div>
-
-				<div>
+				<div class="update_btn">
 					<button class="brandon-bold Rectangle_17">UPDATE</button>
+				</div>
+				<div class="changeadd_btn">
+					<button class="brandon-bold Rectangle_17">Change Address</button>
 				</div>
 			</div>
 		</div>
@@ -111,11 +113,11 @@
 				<div class="row">
 					<form action="">
 						<div class="col-md-6">
-							<div class="StyleRectangle StyleRectangles">
+							<div class="StyleRectangle borderRectangle">
 								<div class="df">
-									<div style="padding-top: 9px;" >
+									<div style="padding-top: 9px;" class="StyleRectangles">
 										<label class="cont">
-											<input type="checkbox" checked="checked">
+											<input type="checkbox">
 											<span class="checkmark"></span>
 										</label>
 									</div>
@@ -131,9 +133,9 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div class="StyleRectangle1 StyleRectangles">
+							<div class="StyleRectangle1 borderRectangle">
 								<div class="df">
-									<div style="padding-top: 9px;">
+									<div style="padding-top: 9px;" class="StyleRectangles">
 										<label class="cont">
 											<input type="checkbox">
 											<span class="checkmark"></span>
@@ -164,27 +166,25 @@
 					<div class="col-md-6 ">
 						<div class="marginLeft1">
 							<h4 class="brandon-bold UXDCards">UXD Cards</h4>
-							<p class="brandontext-regular items "><span class="brandon-bold items3">3</span> item(s) in your cart</p><a
+							<p class="brandontext-regular items "><span class="brandon-bold items3">3</span>item(s) in your cart</p><a
 								class="brandontextRegular" style="text-decoration: underline;">EDIT</a>
 						</div>
 						<div class="marginLef">
-							<hr align="left">
 							<div>
-								<p class="brandontext-regular Shipping "> Shipping </p>
-								<p class="brandontext-regular ShippingFree ">FREE</p>
+								<p class="brandontext-regular Shipping ">Shipping </p>
+								<p class="brandontext-regular ShippingFree">FREE</p>
 							</div>
 							<div>
-								<p class="brandontext-regular TaxP "> Tax </p>
+								<p class="brandontext-regular TaxP ">Tax</p>
 								<p class="brandontext-regular Tax ">$3.45</p>
 							</div>
 							<div>
-								<p class="brandontext-regular Subtotal "> Subtotal </p>
-								<p class="brandontext-regular Subtotal4 ">$475.00</p>
+								<p class="brandontext-regular Subtotal">Subtotal</p>
+								<p class="brandontext-regular Subtotal4">$475.00</p>
 							</div>
-							<div>
-								<p class="brandontext-regular Discount ">Discount code </p>
-								<p class="brandontext-regular DiscountADD">ADD</p>
-								<hr align="left">
+							<div class="border_bottom">
+								<p class="brandontext-regular Discount ">Discount code</p>
+								<a class="brandontext-regular DiscountADD">ADD</a>
 							</div>
 							<div>
 								<h4 class="brandon-bold Total ">Total </h4>
@@ -843,9 +843,10 @@
 		ga('send', 'pageview');
 	</script>
 	<script>
-		$('.StyleRectangles input').click(function() {
-			$(this).parent().toggleClass('checked');
-		})
+		$('.borderRectangle').click(function() {
+			$(this).toggleClass('checked');
+		});
+
 	</script>
 
 </body>
