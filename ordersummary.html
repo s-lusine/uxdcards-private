@@ -107,49 +107,33 @@
 		</div>
 	</section>
 	<section class="nask">
-		<div class="container order_main_container">
+		<div class="container deliver_opt_container">
 			<div class="naskMargin">
 				<h2 class="brandon-bold DeliveryOptions">Delivery options:</h2>
 				<div class="row">
-					<form action="">
+					<form>
 						<div class="col-md-6">
-							<div class="StyleRectangle borderRectangle">
-								<div class="df">
-									<div style="padding-top: 9px;" class="StyleRectangles">
-										<label class="cont">
-											<input type="checkbox">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="a">
-										<h5 class="brandon-bold ThursDay">Thursday, 10 May</h5>
-										<p class="brandontext-regular ThursDayP">UPS - Standard delivery
-											<br> 3 -5 days</p>
-										<h5 class="brandon-bold textName freeMargin">
-											FREE
-										</h5>
-									</div>
-								</div>
+							<div class="deliver_option_div">
+								<input class="checked_inputs deliver_input" type="checkbox">
+								<span class="deliver_option_checkmark"></span>
+								<h6 class="brandon-bold deliver_date">Thursday, 10 May</h6>
+								<h6 class="brandon-bold deliver_type">UPS - Standard delivery</h6>
+								<h6 class="brandon-bold deliver_days">3 -5 days</h6>
+								<h5 class="brandon-bold free_txt">
+									free
+								</h5>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div class="StyleRectangle1 borderRectangle">
-								<div class="df">
-									<div style="padding-top: 9px;" class="StyleRectangles">
-										<label class="cont">
-											<input type="checkbox">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="a">
-										<h5 class="ThursDay">Thursday, 4 May</h5>
-										<p class="brandontext-regular ThursDayP">DHL - Express delivery <br>
-											1-3 days</p>
-										<h5 class="brandon-bold textName freeMargin" style=" color: #25c44e;">
-											FREE
-										</h5>
-									</div>
-								</div>
+							<div class="deliver_option_div">
+								<input class="checked_inputs deliver_input" type="checkbox">
+								<span class="deliver_option_checkmark"></span>
+								<h6 class="brandon-bold deliver_date">Thursday, 4 May</h6>
+								<h6 class="brandon-bold deliver_type">DHL - Express delivery</h6>
+								<h6 class="brandon-bold deliver_days">1-3 days</h6>
+								<h5 class="brandon-bold free_txt green">
+									free
+								</h5>
 							</div>
 						</div>
 					</form>
@@ -157,7 +141,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section style="padding-top: 40px;">
 		<div class="container order_main_container">
 			<div>
@@ -633,9 +616,9 @@
 				</div>
 				<div class="content">
 					<div class="brandontext-regular fs-16 dark-474747">
-						<p>UXD Cards <a href="https://uxdcards.com/">(www.UXDCards.com)</a> owns and operates this
+						<p>UXD Cards <a class="blue_link" href="https://uxdcards.com/">(www.UXDCards.com)</a> owns and operates this
 							Website.  This document governs your relationship with <a
-								href="https://uxdcards.com/">www.UXDCards.com</a> (“Website”). Access to and use of this
+								href="https://uxdcards.com/" class="blue_link">www.UXDCards.com</a> (“Website”). Access to and use of this
 							Website and the products and services available through this Website (collectively, the
 							"Services") are subject to the following Terms and Condition. By using the Services, you are
 							agreeing to all of the Terms and Conditions, as may be updated by us from time to time. You
@@ -659,11 +642,11 @@
 							terms and conditions. All orders are subject to availability and confirmation of the order
 							price. Dispatch times may vary according to availability and subject to any delays resulting
 							from postal delays or force majeure for which we will not be responsible. 
-							In order to contract with <a href="https://uxdcards.com/">www.UXDCards.com</a> you must be
+							In order to contract with <a class="blue_link" href="https://uxdcards.com/">www.UXDCards.com</a> you must be
 							over 18 years of age and have a means of making payment that is acceptable to us. UXD Cards
 							retains the right to refuse any request made by you. If your order is accepted we will
 							inform you by email and we will confirm the identity of the party which you have contracted
-							with. This will usually be <a href="https://uxdcards.com/">www.UXDCards.com</a> or may in
+							with. This will usually be <a class="blue_link" href="https://uxdcards.com/">www.UXDCards.com</a> or may in
 							some cases be a third party. When placing an order you undertake that all details you
 							provide to us are true and accurate, that you are an authorized user of the credit or debit
 							card used to place your order and that there are sufficient funds to cover the cost of the
@@ -734,7 +717,7 @@
 							be removed from the Terms and the remaining Terms will continue to be valid.</p>
 						<h3 class="brandontext-regular fs-18">Handling Complaints and Suggestions </h3>
 						<p>Questions, comments, and requests regarding this Terms and Conditions are welcomed and should
-							be addressed to<a href="mailto:hello@uxdcards.com"> hello@uxdcards.com</a>.
+							be addressed to<a class="blue_link" href="mailto:hello@uxdcards.com"> hello@uxdcards.com</a>.
 						</p>
 						<h3 class="brandontext-regular fs-18">RETURN POLICY</h3>
 						<p>UXD Cards wants you to be 100% satisfied with your purchase.   If you are not completely
@@ -801,8 +784,6 @@
 						<p>Cookies are small files that reside on your computer and allow us to recognize you on your
 							next visit or store your shopping cart contents. We use them only to track this information.
 						</p>
-
-
 					</div>
 				</div>
 			</div>
@@ -845,7 +826,7 @@
 		ga('send', 'pageview');
 	</script>
 	<script>
-		$('.borderRectangle').click(function() {
+		$('.deliver_option_div').click(function() {
 			$(this).toggleClass('checked');
 		});
 

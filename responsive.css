@@ -71,6 +71,9 @@
 		height: 47px;
 		font-size: 15px;
 	}
+	.pay_btn {
+		width: 216px;
+	}
 	.navbar-default {
 		padding-top: 7px;
 	}
@@ -341,8 +344,9 @@
 		line-height: 1.64;
 		color: #000000;
 	}
-	.testimonial {
-		padding-left: 5px;
+	.testimonials2 .slick-next {
+		top: 75%;
+		right: 13%;
 	}
 
 	.testimonial .comment:after {
@@ -641,10 +645,7 @@
 	.select_section .payment-container, .address_section .payment-container, .payment_section .payment-container {
 		max-width: 246px;
 	}
-	.select_section .container, .address_section .container, .payment_section .container {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
+
 	 .checkout_header {
 		background-image: linear-gradient(to top, #919191 0%, #232323 100%);
 	}
@@ -837,7 +838,7 @@
 		display: none;
 	}
 	.bil_inputs {
-		width: 240px;
+		width: 246px;
 		height: 60px;
 		box-shadow: -4px -4px 14px #ffffff, 4px 4px 14px #d1cdc7;
 		border: 1px solid #ffffff;
@@ -890,13 +891,7 @@
 		transform: rotate(45deg);
 		display: none;
 	}
-	.add_input_mb input:checked ~ .deliver_checkmark {
-		border: 2px solid #25c44e;
-		background-color: #4ec06d;
-	}
-	.add_input_mb input:checked ~ .deliver_checkmark:after {
-		display: block;
-	}
+
 	.deliver_checkmark {
 		width: 22px;
 		height: 22px;
@@ -909,6 +904,13 @@
 	}
 	.add_input_mb.active_border {
 		border: 2px solid #25c44e;
+	}
+	.add_input_mb.active_border .deliver_checkmark:after {
+		display: block;
+	}
+	.add_input_mb.active_border .deliver_checkmark {
+		border: 2px solid #25c44e;
+		background-color: #4ec06d;
 	}
 
 	.mb_inputs .input_mb::placeholder {
@@ -1161,6 +1163,7 @@
 	}
 	.nask {
 		border: 5px solid #fff;
+		padding: 55px 0;
 	}
 	.order_header_title {
 		font-size: 24px;
@@ -1174,34 +1177,40 @@
 	.order_header_txt {
 		margin-bottom: 90px;
 	}
-	.DeliveringTo {
-		color: #000000;
-		font-size: 24px;
-	}
-	.textName {
-		font-size: 14px;
-		color: #000000;
-	}
-	.textP {
-		font-size: 14px;
-	}
-	.Rectangle_17 {
-		width: 240px;
-		height: 60px;
-		box-shadow: -5px -5px 14px 0 #ffffff, 5px 5px 14px 0 #d1cdc7;
-	}
+	/*checks*/
 	.DeliveryOptions {
-		color: #000000;
 		font-size: 24px;
+		margin-bottom: 36px;
+		color: #000000;
+	}
+	.deliver_option_div  {
+		width: 240px;
+		height: 119px;
+		box-shadow: -4px -4px 14px 0 #ffffff, 4px 4px 14px 0 #d1cdc7;
+		border: solid 1px #ffffff;
+		background-color: #ffffff;
+		padding: 16px 0 0 57px;
+		margin-bottom: 14px;
+	}
+	.deliver_option_checkmark {
+		margin-left: 20px;
+		top: 15px;
+	}
+	.deliver_date {
+		font-size: 14px;
+		color: #000000;
+		margin-top: 0;
 	}
 
-	.ThursDay {
+	/* Text style for "Thursday," */
+	.deliver_type, .deliver_days {
 		font-size: 14px;
+		line-height: 1;
 	}
-	.ThursDayP {
-		font-size: 14px;
-		color: #000000;
+	.free_txt {
+		font-size: 15px;
 	}
+
 	.OrderSumm {
 		color: #000000;
 		font-size: 24px;
@@ -1232,47 +1241,6 @@
 	}
 
 	/* Style for "Rectangle" */
-	.Rectangle_17 {
-
-		width: 240px;
-		height: 60px;
-		box-shadow: -5px -5px 14px #ffffff, 5px 5px 14px #d1cdc7;
-		border: 1px solid #ffffff;
-		background-color: #ffffff;
-		/* Style for "CHANGE ADD" */
-		color: #000000;
-		font-size: 15px;
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: 40px;
-	}
-
-
-	.nask {
-		padding-top: 10px;
-	}
-
-	.borderRectangle {
-		/* Style for "Rectangle" */
-		width: 240px;
-		height: 119px;
-		box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #d1cdc7;
-		border: 2px solid #25c44e;
-		background-color: #ffffff;
-		padding-top: 10px;
-		margin-left: 15px;
-	}
-
-	.borderRectangle {
-		/* Style for "Rectangle" */
-		margin: 14px 15px 60px 15px;
-		width: 240px;
-		height: 119px;
-		box-shadow: -4px -4px 14px #ffffff, 4px 4px 14px #d1cdc7;
-		border: 1px solid #ffffff;
-		background-color: #ffffff;
-	}
-
 	.df {
 		margin: 0;
 		margin-left: 19px;
@@ -1305,6 +1273,13 @@
 		max-width: 292px;
 		margin: 0 auto;
 	}
+	.nask .container {
+		padding: 0;
+	}
+	.deliver_opt_container {
+		max-width: 240px;
+		margin: 0 auto;
+	}
 
 	.flex-container {
 		display: flex;
@@ -1313,6 +1288,7 @@
 	}
 	.changeadd_btn {
 		display: block;
+		text-align: center;
 	}
 	.update_btn {
 		display: none;
