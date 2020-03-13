@@ -1205,6 +1205,7 @@
 	.OrderSumm {
 		color: #000000;
 		font-size: 24px;
+		text-align: center;
 	}
 
 	/* Style for "Last chanc" */
@@ -1300,10 +1301,15 @@
 	.sect {
 		margin: 20px 30px 0;
 	}
+	.order_main_container {
+		max-width: 292px;
+		margin: 0 auto;
+	}
 
 	.flex-container {
 		display: flex;
 		flex-wrap: wrap-reverse;
+		justify-content: center;
 	}
 	.changeadd_btn {
 		display: block;
@@ -1317,10 +1323,13 @@
 	}
 	.UXDCards {
 		/* Style for "UXD Cards" */
-		margin: 32px 0 13px;
+		margin: 20px 0 10px;
 		color: #000000;
 		font-size: 24px;
 		font-weight: 700;
+	}
+	.brandontextRegular {
+		margin: 0;
 	}
 
 	.uxdBox {
@@ -1345,85 +1354,73 @@
 
 
 	/* Style for "Shipping" */
+	.marginLef div, .marginLeft1 div {
+		margin-bottom: 6px;
+		max-width: 240px;
+		margin: 0 auto;
+	}
+	.marginLeft1 {
+		max-width: 240px;
+		margin: 0 auto;
+	}
 	.Shipping {
-		margin: 0;
 		display: block;
 		color: #000000;
 		font-size: 14px;
 		font-weight: 500;
-		margin-bottom: -5px;
 	}
 
 	/* Text style for "Shipping" */
 	.ShippingFree {
 		font-size: 14px;
 		font-weight: 500;
-		margin: 0;
-		margin-left: 28px;
 	}
 
 	/* Style for "Tax" */
 	.Tax {
 		font-size: 14px;
-		display: block;
 		color: #000000;
 		font-weight: 400;
-		margin: -5px 28px -10px
 	}
 
 	/* Text style for "Tax" */
 	.TaxP {
 		font-size: 14px;
 		font-weight: 500;
-		margin: 0;
-		display: block;
-		margin-top: -5px;
-		margin-left: 28px;
 	}
 
 	/* Style for "Subtotal" */
 	.Subtotal {
 		font-weight: 400;
 		font-size: 14px;
-		margin: 0;
-		margin-top: -5px;
-		margin-left: 28px;
 	}
 
 	/* Text style for "Subtotal" */
 	.Subtotal4 {
-		display: block;
 		color: #000000;
 		font-size: 14px;
 		font-weight: 500;
-		margin: -5px 28px -10px;
 	}
 
 	.Total4 {
-		/* Style for "Total" */
 		color: #000000;
 		font-size: 25px;
 		font-weight: 700;
-		margin-top: -50px;
+		margin: 0;
+		padding-top: 13px;
+		padding-bottom: 34px;
 	}
 
 	.Total {
-		margin-right: 80px;
-		margin-left: 28px;
-		margin-top: -50px;
-		/* Text style for "" */
-		font-size: 15px;
+		margin: 0;
+		padding-top: 13px;
+		padding-bottom: 34px;
+		font-size: 25px;
 		color: #000000;
 		font-weight: 700;
 	}
 
-	hr {
-		width: 240px;
-		margin-left: 20px;
-	}
-
 	.Discount {
-		margin: 0 80px -10px 28px;
 		color: #000000;
 		font-size: 14px;
 		font-weight: 400;
@@ -1433,7 +1430,6 @@
 		margin: 0;
 		font-size: 14px;
 		font-weight: 400;
-		margin-bottom: -10px;
 	}
 
 	.freeMargin {
@@ -1446,10 +1442,6 @@
 
 	.checkmark {
 		left: 0;
-	}
-
-	hr {
-		width: 240px;
 	}
 
 	.PLACE_ORDER {

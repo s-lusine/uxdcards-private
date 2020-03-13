@@ -559,14 +559,10 @@ hr {
     color: #000000;
     font-weight: 700;
     font-size: 25px;
-    display: inline-block;
-    margin-right: 100px;
 }
 
 /* Text style for "Total, $47" */
 .Total4 {
-    margin-left: 20px;
-    display: inline-block;
     color: #000000;
     font-weight: 700;
     font-size: 25px;
