@@ -1798,7 +1798,7 @@ footer.confirmation_footer {
     cursor: pointer;
     position: absolute;
     opacity: 1.75;
-    width: 90px;
+    width: 84px;
     height: 80px;
     top: 0;
     left: 15%;
@@ -2194,7 +2194,7 @@ ul.item-card li {
     position: relative;
     vertical-align: top;
 }*/
-
+/* 
 .flash-cards-ux .price span:first-child:before {
     content: "";
     position: absolute;
@@ -2203,8 +2203,10 @@ ul.item-card li {
     right: 0;
     height: 3px;
     background: #b3b4b5;
+} */
+.old_price{
+text-decoration: line-through;
 }
-
 .iconplay {
     background: url(images/icon/iconplay.png) center center no-repeat;
     width: 81px;

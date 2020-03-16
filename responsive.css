@@ -55,7 +55,7 @@
 		display:none;
 	}
 }
-@media screen and (max-width:525px){ul.item-card{width:220px;}
+@media screen and (max-width:525px){ul.item-card{width:240px;}
 	.fs-48{font-size:28px;}
 	.rounded-button.submit-form.btn-lg-24{font-size:22px;padding:15px 0;}
 }
@@ -82,8 +82,18 @@
 		height: 42px;
 		background-size: contain;
 		object-fit: contain;
+		background-image: url(images/logo_mobile.png);
+	}
+	.brandontext-regular{
+		font-family: "BrandonText-Regular";
 	}
 
+	.abel_font{
+		font-family: Abel;
+	}
+	.home .collapse{
+		margin-bottom: 0;
+	}
 	.navbar-toggle {
 		padding: 0;
 		margin-right: 0;
@@ -97,9 +107,12 @@
 	}
 
 	.sub-title{
+		width: 216px;
 		height: 60px;
 		font-size: 14px;
 		line-height: 1.43;
+		font-family:"BrandonText-Regular";
+		font-weight: 400;
 	}
 	.cards_container .flycard img {
 		width: 89px;
@@ -122,15 +135,21 @@
 	.video {
 		padding-bottom: 53px;
 	}
+	.video_responsive_txt{
+		font-weight: 400;
+	}
 	.video-title-responsive {
 		display: block;
 		margin-top: 39px;
+		font-weight: 400;
 	}
 	.video-title {
 		font-size: 14px;
 		line-height: 1.43;
 		color: #000;
 		margin: 0 0 10px;
+		font-weight: 400;
+		font-family:"BrandonText-Regular";
 	}
 	.wrapper-video .video_img {
 		width: 292px;
@@ -171,13 +190,21 @@
 	}
 	.partners_imgs {
 		width: 110px;
+		display: block;
+	
 	}
+	.row_responsive_img img{
+		margin-left:30px;
+	}
+
 	.partners_row_responsive {
 		display: block;
 		text-align: center;
 		margin-top: 26px;
 	}
-
+.partners_imgs_top{
+	margin-bottom:20px
+}
 	/*flash cards section*/
 	.flash-cards-ux {
 		background-image: url("images/steady-bg.png");
@@ -190,6 +217,7 @@
 	}
 	.steady {
 		display: block;
+		font-weight: 400;
 	}
 	.cards_prices {
 		margin-top: 34px;
@@ -289,25 +317,29 @@
 	.img8, .img9, .img13 {
 		display: none;
 	}
-	.img7 {
-		height: 43px;
-		transform: rotate(-12deg);
-		top: 92%;
-		left: 18%;
-		z-index: -1;
+	
+		.img7 {
+			height: 53px;
+			transform: rotate(-12deg);
+			top: 92%;
+			left: 7%;
+			z-index: -1;
+			width: 67px;
 	}
 	.img10 {
-		height: 55px;
+		width: 67px;
+    	height: 63px;
 		transform: rotate(-3deg);
-		top: 90%;
-		right: 41%;
+		top: 89%;
+    	right: 42%;
 		z-index: -1;
 	}
 	.img11 {
-		height: 43px;
+		width: 81px;
+    	height: 54px;
 		transform: rotate(10deg);
-		top: 93%;
-		right: 20%;
+		top: 92%;
+    	right: 7%;
 		z-index: -1;
 	}
 
@@ -422,11 +454,11 @@
 		padding: 7px 0 5px;
 	}
 	footer .logo-footer a {
-		width: 41px;
-		height: 29px;
+		width: 44px;
+		height: 42px;
 		object-fit: contain;
 		display: block;
-		background: url(images/header-logo.png) center no-repeat;
+		background: url(images/logo_mobile.png) center no-repeat;
 		border: solid 3px #343434;
 		background-size: contain;
 	}
@@ -443,6 +475,14 @@
 	}
 	.social_mobile {
 		display: block;
+		float: left;
+		margin-top: 39px;
+		margin-left: 20px;
+
+	}
+
+	.social_mobile a{
+		margin-left: 5px;
 	}
 
 	.quick-links table {
@@ -450,8 +490,8 @@
 	}
 
 	/*uses mb*/
-	 .uses-header {
-		height: 333px;
+	.text-center{
+		height: 230px;
 	}
 
 	 header .uses_container {
@@ -618,8 +658,9 @@
 
 
 	/*cards page mb*/
-	.cards_header {
-		padding-bottom: 70px;
+
+	.cards_navbar{
+		padding-bottom:0;
 	}
 	.cards_txts_mb {
 		display: block;
@@ -632,6 +673,7 @@
 		font-size: 24px;
 		font-family: 'Europe';
 		line-height: 31px;
+		margin:35px 0;
 	}
 	.cards_txts_mb .card_desc {
 		height: 55px;
@@ -1143,6 +1185,7 @@
 	}
 	#bs-example-navbar-collapse-1 .notify {
 		margin-left: 15px;
+		margin-top: 40px;
 	}
 
 	 /*Order Summary */
@@ -1451,11 +1494,10 @@
 	}
 	.confirm_main_txt_mb {
 		 display:block;
-		margin-bottom: 78px;
 	}
 
 	.header_conf_title {
-		height: 61px;
+		height: 80px;
 		font-size: 24px;
 		font-weight: 700;
 		line-height: 31px;
@@ -1473,6 +1515,7 @@
 		display: block;
 		width: 245px;
 		margin-bottom: 60px;
+		margin-left: 22px;
 	}
 	.details_title {
 		width: 75px;
@@ -1539,6 +1582,7 @@
 	}
 	.delivery_output, .pay_method_mb {
 		border: none;
+		margin-left:25px;
 	}
 	.delivery_output span, .pay_method_mb span {
 		height: 14px;
@@ -1596,6 +1640,7 @@
 		margin-left: 0;
 		padding-bottom: 8px;
 		border-bottom: 1px solid #e0e2e5;
+		margin-left: 25px;
 	}
 	.paid_info, .paid_info_price {
 		color: #000000;
@@ -1606,6 +1651,7 @@
 		display: block;
 		width: 220px;
 		margin-bottom: 45px;
+		margin-left: 25px;
 	}
 	.paid_info_price {
 		font-size: 15px;
@@ -1615,6 +1661,7 @@
 	.order_track_div {
 		display: block;
 		margin-bottom: 50px;
+		margin-left: 25px;
 	}
 	.track_order {
 		width: 240px;
@@ -1650,6 +1697,7 @@
 	}
 	.share_txt {
 		margin-bottom: 0;
+		margin-left: 25px;
 	}
 	.share_title {
 		display: none;
@@ -1676,6 +1724,9 @@
 		font-size: 14px;
 		font-weight: 400;
 	}
+	.invite_form{
+		margin-left:25px;
+	}
 	.email_btn {
 		width: 60px;
 		height: 60px;
@@ -1700,9 +1751,10 @@
 	}
 	.or_img_mb {
 		display:block;
+		margin-left: 25px;
 	}
 	.share_btn {
-		margin: 34px 0;
+		margin: 34px 23px;
 	}
 	.share_linkedin {
 		margin-bottom: 13px;
@@ -1728,6 +1780,9 @@
 		font-weight: 400;
 		line-height: 20px;
 	}
+	.link_share{
+		margin-left: 25px;
+	}
 	.link_share .ref_link {
 		display: block;
 		height: 14px;
@@ -1737,7 +1792,7 @@
 		margin: 0 0 16px;
 	}
 	.link_copy_form input {
-		width: 240px;
+		width: 180px;
 		height: 60px;
 		border: 1px solid #9b9b9b;
 		background-color: #ffffff;
@@ -1775,6 +1830,7 @@
 		font-size: 24px;
 		font-weight: 700;
 		line-height: 31px;
+		margin:35px 0;
 	}
 	.faq_sub_title {
 		font-size: 14px;
@@ -1782,9 +1838,7 @@
 		line-height: 19px;
 	}
 
-	.faq_header_txt_row {
-		margin-bottom: 57px;
-	}
+
 	.faq_btn_section {
 		position: relative;
 	}
