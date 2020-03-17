@@ -131,6 +131,9 @@ button:focus {
 .bariol-regular {
     font-family: 'Bariol Regular';
 }
+.brandontext-regular {
+    font-family: 'BrandonText Regular';
+}
 
 #bs-example-navbar-collapse-1 a,
 #thanks {
@@ -615,9 +618,6 @@ header.single-color{
 }
 .single-color .navbar-default{
     margin-bottom: 0;
-}
-.brandontext-regular {
-    font-family: 'BrandonText Regular';
 }
 
 .lato-bold {
@@ -1777,7 +1777,7 @@ footer.confirmation_footer {
 }
 .slick-prev {
     top: 50%;
-    left: -6%;
+    left: -1%;
 }
 .slick-prev:before {
     content: '';
@@ -1840,8 +1840,8 @@ footer.confirmation_footer {
 }
 .slider__counter {
     position: absolute;
-    top: 2%;
-    left: 46%;
+    top: 10%;
+    left: 50%;
     width: 60px;
     height: 25px;
     color: #474747;
