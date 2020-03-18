@@ -1463,9 +1463,36 @@ footer.confirmation_footer {
 
 /*video section*/
 .video {
-    background: url(images/video_background.png) top center no-repeat;
-    background-size: cover;
     padding-bottom: 96px;
+}
+.video_row {
+    display: flex;
+    justify-content: center;
+}
+.wistia_embed {
+    width: 100%;
+    max-width:940px;
+    height:497px;
+}
+#wistia_chrome_25 #wistia_grid_31_wrapper .w-css-reset-tree svg {
+        width: 85px;
+        height: 62px;
+        font-size: 40px;
+        background: #F9624D;
+        border: 1px solid #D0021B;
+        border-radius: 10% / 50%;
+        color: white;
+        vertical-align: top;
+        -webkit-transition: .6s ease-in-out;
+        transition: .6s ease-in-out;
+        position: absolute;
+        right: 45%;
+        top: 44%;
+        background-repeat: no-repeat;
+        transition: 0.5s ease;
+        -webkit-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+        -moz-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+        box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
 }
 .video-title-responsive {
     display: none;
@@ -1490,6 +1517,16 @@ footer.confirmation_footer {
     letter-spacing: normal;
     text-align: center;
     color: #000000;
+}
+
+
+/* How the buttons behave when hovered over or focused on - this allows us to get rid of the default outline and indicate focus ourselves */
+.neumorphic:focus, #wistia_chrome_25 #wistia_grid_31_wrapper .w-css-reset-tree svg:hover{
+    border: 3px solid rgba(46, 74, 112, .75);
+    -webkit-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+    -moz-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+    box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
+    transition: 0.5s ease;
 }
 
 /*Partners Section*/
@@ -1549,7 +1586,6 @@ footer.confirmation_footer {
 .methods_txt {
     font-size: 34px;
     margin-top: 60px;
-    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -1588,11 +1624,36 @@ footer.confirmation_footer {
 }
 .positioned_img {
     position: absolute;
+    cursor: pointer;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+   0% {
+    transform: translate(0);
+   } 
+   50% {
+    transform: translate(30%);
+   }
 }
 .main_img {
     position: relative;
     z-index: -1;
     top: 10px;
+     animation-name: sliding;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes sliding {
+   0% {
+    transform: translate(0, 0);
+   } 
+   50% {
+    transform: translate(0,330px);
+   }
 }
 .img7 {
     top: 32%;
@@ -2048,7 +2109,7 @@ ul.item-card li {
 
 .video-title {
     font-size: 34px;
-    font-weight: 600;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
@@ -2119,13 +2180,13 @@ ul.item-card li {
     line-height: 1.34;
     letter-spacing: normal;
     color: #414141;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 .list-text-flash{
     width: 354px;
     height: 120px;
     margin-top: 12px;
-    padding-inline-start: 35px;
+    padding-inline-start: 30px;
 }
 .price {
     margin: 10px 0 8px;
@@ -2332,6 +2393,20 @@ text-decoration: line-through;
     letter-spacing: normal;
     color: #7d8f99;
 }
+sup {
+  width: 14px;
+  height: 22px;
+  font-size: 12px;
+  top: -20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+}
+
 .mg-bottom-0 {
     margin-bottom: 0
 }
@@ -2344,12 +2419,12 @@ text-decoration: line-through;
     font-family: 'BrandonText Regular';
     font-size: 14px;
     color: #576972;
-    margin-bottom: 3px
+    margin-bottom: 3px;
 }
 
 .content-select li a,
 .qty {
-    font-family: 'BrandonText Regular'
+    font-family: 'BrandonText Regular';
 }
 
 .testimonial .job {
@@ -4223,83 +4298,5 @@ ul.collapse-menu {
     font-size: 18px;
 }
 
-.btn{
-    width: 85px;
-    height: 62px;
-    font-size: 40px;
-    border-radius: 10% / 50%;
-    border: none;
-    color: white;
-    vertical-align: top;
-    -webkit-transition: .6s ease-in-out;
-    transition: .6s ease-in-out;
-    position: absolute;
-    right: 45%;
-    top: 44%;
-    background-image: url("images/video-play.png");
-    background-repeat: no-repeat;
-}
 
 
-.btn:hover{
-    cursor: pointer;
-}
-
-.btn:focus{
-    /*  This is just so extra styles don't get in the way,
-        our border will take care of focus!  */
-    outline: none;
-}
-
-/* Important stuff for neumorphic styling */
-.neumorphic{
-    /*  Background is the background color inside button  */
-    background: #f9624d;
-
-    /*  The shadow around the buttons which make them look
-        vacuum-formed */
-    box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
-    border: 1px solid #d0021b;
-}
-
-/* How the buttons look when pressed down */
-.neumorphic-pressed{
-    background: #f9624d;
-    -webkit-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
-    -moz-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
-    box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
-}
-
-/* How the buttons behave when hovered over or focused on - this allows us to get rid of the default outline and indicate focus ourselves */
-.neumorphic:focus, .neumorphic:hover, .neumorphic:focus, .neumorphic:hover, .neumorphic-pressed:focus, .neumorphic-pressed:hover {
-    border: 3px solid rgba(46, 74, 112, .75);
-}
-
-/* Some stuff for Material icons, you can ignore this */
-.material-icon {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 40px;
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-    /* Support for IE. */
-    font-feature-settings: 'liga';
-}
-
-#pause {
-    color: #143664;
-    display: none;
-}
