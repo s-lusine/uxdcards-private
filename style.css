@@ -1960,6 +1960,7 @@ hr {
     border-bottom: 10px solid #ffffff;
     background-color: #f3f2f1;
     padding-top: 71px;
+    height: 926px;
 }
 .block-cards .subtitle{
     margin-top:11px;
@@ -2053,18 +2054,21 @@ ul.item-card li {
     margin: 0;
     padding: 100px 0 37px
 }
+.hidden_sec {
+    position: absolute;
+    width: 100%;
+    top: 99%;
+}
 
 .card-now {
     position: absolute;
-    width: 100%;
-    bottom: 114px;
-    height: 200px
-}
-
-
-
-.video h3 {
-    color: #414141
+    width: 50%;
+    height: 297px;
+    top: 120%;
+    background: #fff;
+    z-index: 1;
+    background: linear-gradient(179deg, rgba(255, 255, 255, 0) 26%, #ffffff 60%);
+    left: 25%;
 }
 
 .price-title {
