@@ -107,9 +107,42 @@
 		line-height: 1.43;
 		font-weight: 400;
 	}
+	/*cards page mb*/
+
+	.cards_navbar{
+		padding-bottom:0;
+	}
+	.cards_txts_mb {
+		display: block;
+		margin-bottom: 70px;
+	}
+	.header_cards {
+		display: none;
+	}
+	.cards_txts_mb h3 {
+		height: 60px;
+		font-size: 24px;
+		font-family: 'Europe';
+		line-height: 31px;
+		margin:35px 0;
+	}
+	.cards_txts_mb .card_desc {
+		height: 55px;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 19px;
+		margin-bottom: 25px;
+	}
 	.cards_container .flycard img {
 		width: 89px;
 		height: 146px;
+	}
+	header .container.cards_container {
+		background: unset;
+	}
+	header.cards_header {
+		background: linear-gradient(to bottom, rgba(35, 35, 35, 1) 20%, rgba(145, 145, 145, 1) 120%);
+    	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#232323', endColorstr='#919191', GradientType=0);
 	}
 	.cards_box {
 		padding-top: 0;
@@ -685,31 +718,6 @@
 	}
 
 
-	/*cards page mb*/
-
-	.cards_navbar{
-		padding-bottom:0;
-	}
-	.cards_txts_mb {
-		display: block;
-	}
-	.header_cards {
-		display: none;
-	}
-	.cards_txts_mb h3 {
-		height: 60px;
-		font-size: 24px;
-		font-family: 'Europe';
-		line-height: 31px;
-		margin:35px 0;
-	}
-	.cards_txts_mb .card_desc {
-		height: 55px;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 19px;
-		margin-bottom: 25px;
-	}
 
 	/*checkout page mb*/
 	.select_section .payment-container, .address_section .payment-container, .payment_section .payment-container {
