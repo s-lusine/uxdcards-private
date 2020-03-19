@@ -85,9 +85,6 @@
 		background-image: url(images/logo_mobile.png);
 	}
 
-	.abel_font{
-		font-family: Abel;
-	}
 	.home .collapse{
 		margin-bottom: 0;
 	}
@@ -122,6 +119,22 @@
 	}
 	.card_position2 {
 		left: 55%;
+	}
+	.block_cards_section {
+    	height: unset;
+    	padding-top: 45px;
+    	padding-bottom: 156px;
+	}
+	.hid_mb {
+    	display: none;
+	}
+	.hidden_sec {
+    	top: 100%;
+	}
+	.card-now {
+	    width: 66%;
+	    top: 363%;
+	    left: 17%;
 	}
 
 	/*video section*/
@@ -324,13 +337,13 @@
 		display: none;
 	}
 	
-		.img7 {
-			height: 53px;
-			transform: rotate(-12deg);
-			top: 92%;
-			left: 7%;
-			z-index: -1;
-			width: 67px;
+	.img7 {
+		height: 53px;
+		transform: rotate(-12deg);
+		top: 92%;
+		left: 7%;
+		z-index: -1;
+		width: 67px;
 	}
 	.img10 {
 		width: 67px;

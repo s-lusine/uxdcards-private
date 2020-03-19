@@ -1962,6 +1962,7 @@ hr {
     padding-top: 71px;
     height: 926px;
 }
+
 .block-cards .subtitle{
     margin-top:11px;
     margin-bottom: 52px;
@@ -2062,13 +2063,13 @@ ul.item-card li {
 
 .card-now {
     position: absolute;
-    width: 50%;
+    width: 74%;
     height: 297px;
-    top: 120%;
+    top: 133%;
     background: #fff;
     z-index: 1;
     background: linear-gradient(179deg, rgba(255, 255, 255, 0) 26%, #ffffff 60%);
-    left: 25%;
+    left: 13%;
 }
 
 .price-title {
