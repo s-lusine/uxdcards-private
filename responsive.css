@@ -1529,7 +1529,8 @@
 		display: none;
 	}
 	.confirm_main_txt_mb {
-		 display:block;
+		display:block;
+		padding-bottom: 82px;
 	}
 
 	.header_conf_title {
