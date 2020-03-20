@@ -25,7 +25,7 @@ input {
 }
 
 #bs-example-navbar-collapse-1 .header_card:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    box-shadow: 2px 2px 9px 0 #f9624d, -3px -3px 9px 0 #4a4a4a;
     transition: 0.5s;
 }
 
@@ -189,7 +189,6 @@ ul.nav.navbar-nav.navbar-right {
     margin-left: 20px;
     display: inline-block;
     line-height: 20px;
-    box-shadow: 2px 2px 9px 0 #f9624d, -3px -3px 9px 0 #4a4a4a;
     border: solid 1px #d0021b;
 }
 
@@ -1464,6 +1463,9 @@ footer.confirmation_footer {
 /*video section*/
 .video {
     padding-bottom: 96px;
+    background-image: url(images/video-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .video_row {
     display: flex;
@@ -1471,10 +1473,10 @@ footer.confirmation_footer {
 }
 .wistia_embed {
     width: 100%;
-    max-width:940px;
+    max-width: 900px;
     height:497px;
 }
-#wistia_chrome_25 #wistia_grid_31_wrapper .w-css-reset-tree svg {
+/* #wistia_chrome_25 #wistia_grid_31_wrapper .w-css-reset-tree svg {
         width: 85px;
         height: 62px;
         font-size: 40px;
@@ -1493,7 +1495,7 @@ footer.confirmation_footer {
         -webkit-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
         -moz-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
         box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
-}
+} */
 .video-title-responsive {
     display: none;
     height: 23px;
@@ -1521,13 +1523,13 @@ footer.confirmation_footer {
 
 
 /* How the buttons behave when hovered over or focused on - this allows us to get rid of the default outline and indicate focus ourselves */
-.neumorphic:focus, #wistia_chrome_25 #wistia_grid_31_wrapper .w-css-reset-tree svg:hover{
+/* .neumorphic:focus, #wistia_chrome_25 #wistia_grid_31_wrapper .w-css-reset-tree svg:hover{
     border: 3px solid rgba(46, 74, 112, .75);
     -webkit-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
     -moz-box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
     box-shadow: -6px -6px 16px #ffffff, 6px 6px 16px #fc6147;
     transition: 0.5s ease;
-}
+} */
 
 /*Partners Section*/
 
@@ -3543,7 +3545,7 @@ i.fa {
     width: 147px;
     height: 101px;
     display: block;
-    background: url(images/header-logo.png) center no-repeat;
+    background: url(images/uxd-logo.png) center no-repeat;
     background-size: contain;
     object-fit: cover;
 }
