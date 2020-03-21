@@ -1467,6 +1467,21 @@ footer.confirmation_footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.video-title {
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 50px 0 58px;
+    color: #414141;
+}
+
+.wrapper-video .video_img {
+    opacity: 0.8;
+}
 .video_row {
     display: flex;
     justify-content: center;
@@ -1531,8 +1546,8 @@ footer.confirmation_footer {
     transition: 0.5s ease;
 } */
 
-/*Partners Section*/
 
+/*Partners Section*/
 .partners_row_responsive {
     display: none;
 }
@@ -1545,22 +1560,16 @@ footer.confirmation_footer {
     border-top: solid 10px #fff;
 }
 .partners_imgs:hover {
-    cursor: pointer;
+    transition: 0.5s;
     filter: grayscale(0);
 }
 .partners_imgs {
     filter: grayscale(1);
     transition: 0.5s;
-}
-.partners_svg {
-    vertical-align: middle;
-}
-.partners_svg:hover {
-    fill: #3260B1;
-    transition: 0.5s;
+    cursor: pointer;
 }
 .partners_row {
-    margin: 50px 0 15px;
+    margin: 37px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2114,21 +2123,6 @@ ul.item-card li {
     margin-top: 12px;
 }
 
-.video-title {
-    font-size: 34px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.03;
-    letter-spacing: normal;
-    text-align: center;
-    margin: 59px 0 58px;
-    color: #414141;
-}
-
-.wrapper-video .video_img {
-    opacity: 0.8;
-}
 .play_btn {
     position: absolute;
     top: 40%;
@@ -2371,12 +2365,12 @@ text-decoration: line-through;
     font-family: 'BrandonText Regular';
     width: 300px;
     height: 199px;
-    box-shadow: -6px -6px 16px 0 rgba(255, 255, 255, 0.5), 6px 6px 16px 0 rgba(209, 205, 199, 0.5);
     border: solid 1px #f3f2f1;
     padding: 20px 25px 35px 25px;
     background-color: #ffffff;
     position: relative;
 }
+
 
 .testimonial .comment:after{
     content: "";
@@ -2612,7 +2606,7 @@ footer .logo-footer a {
     width:147px;
     height: 102px;
     display: block;
-    background: url(images/footer.png) center no-repeat;
+    background: url(images/uxd-logo-footer.png) center no-repeat;
     border: solid 3px #343434;
     background-size: contain;
     object-fit: cover;
