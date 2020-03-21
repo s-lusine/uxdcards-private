@@ -600,7 +600,6 @@ footer.order_footer {
 .heading-title {
     margin-top: 20px;
     margin-bottom: 23px;
-    height: 165px;
     font-family: 'Europe';
     font-size: 50px;
     font-stretch: normal;
@@ -2203,7 +2202,6 @@ ul.item-card li {
 }
 
 .domestic_txt {
-    width: 189px;
     height: 23px;
     font-size: 12px;
     font-weight: normal;
